@@ -1,14 +1,13 @@
 package io.github.swiftyninja.person;
 
-import io.github.swiftyninja.schedule.Course;
-
+import io.github.swiftyninja.schedule.Session;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Faculty extends Person {
     private LocalDate hired;
     private boolean tenured;
-    private ArrayList<Course> classes;
+    private ArrayList<Session> classes;
 
     public Faculty(String id) {
         super(id);
@@ -28,4 +27,17 @@ public class Faculty extends Person {
 
     public void setHired(LocalDate hired) { this.hired = hired; }
     public void setTenured(boolean tenured) { this.tenured = tenured; }
+
+    public void addSession(Session sesh) {
+        if (!classes.contains(sesh))
+            classes.add(sesh);
+    }
+
+    public void removeSession(String id) {
+        classes.removeIf(n -> n.getSessionId().equals(id));
+    }
+
+    public Session findSession(String sessionId) {
+        return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
+    }
 }

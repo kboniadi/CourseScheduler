@@ -7,7 +7,7 @@ public abstract class Person implements Comparable<Person> {
     private PersonAddress address;
     private String email;
     private String phone;
-    private String id;
+    private final String id;
 
     protected Person(String id) {
         this(id, new PersonName(), new PersonAddress(), "", "");

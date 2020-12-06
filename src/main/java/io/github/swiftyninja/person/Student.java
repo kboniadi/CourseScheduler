@@ -34,19 +34,20 @@ public class Student extends Person {
     public String getGpa() { return gpa; }
     public String getStartDate() { return startdate.toString(); }
 
-    public void addSession(Session sesh) {
-
-    }
-
-    public void removeSession(String id) {
-
-    }
-
-    public Session findSession(String id) {
-        return null;
-    }
-
     public void setBirth(LocalDate birth) { this.birth = birth; }
     public void setGpa(String gpa) { this.gpa = gpa; }
     public void setStartDate(LocalDate startdate) { this.startdate = startdate; }
+
+    public void addSession(Session sesh) {
+        if (!classes.contains(sesh))
+            classes.add(sesh);
+    }
+
+    public void removeSession(String id) {
+        classes.removeIf(n -> n.getSessionId().equals(id));
+    }
+
+    public Session findSession(String sessionId) {
+        return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
+    }
 }
