@@ -1,6 +1,6 @@
-package io.github.swiftyninja.scheduler.person;
+package io.github.swiftyninja.person;
 
-import io.github.swiftyninja.scheduler.schedule.Course;
+import io.github.swiftyninja.schedule.Course;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package io.github.swiftyninja.scheduler.person;
+package io.github.swiftyninja.person;
 
 public interface IDirectory {
     Person find(String id);
