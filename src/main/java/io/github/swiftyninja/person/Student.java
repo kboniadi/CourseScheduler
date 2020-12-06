@@ -8,23 +8,22 @@ public class Student extends Person {
     private LocalDate birth;
     private String gpa;
     private LocalDate startdate;
-    private String id;
     private ArrayList<Session> classes;
 
-    public Student() {
-        this(LocalDate.now(), "", LocalDate.now());
+    public Student(String id) {
+        this(id, LocalDate.now(), "", LocalDate.now());
     }
 
-    public Student(LocalDate birth, String gpa, LocalDate startdate) {
-        super();
+    public Student(String id, LocalDate birth, String gpa, LocalDate startdate) {
+        super(id);
         setBirth(birth);
         setGpa(gpa);
         setStartDate(startdate);
         classes = new ArrayList<>();
     }
 
-    public Student(PersonName name, PersonAddress address, String email, String phone, LocalDate birth, String gpa, LocalDate startdate) {
-        super(name, address, email, phone);
+    public Student(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate birth, String gpa, LocalDate startdate) {
+        super(id, name, address, email, phone);
         setBirth(birth);
         setGpa(gpa);
         setStartDate(startdate);
@@ -34,10 +33,20 @@ public class Student extends Person {
     public String getBirth() { return birth.toString(); }
     public String getGpa() { return gpa; }
     public String getStartDate() { return startdate.toString(); }
-    public String getId() { return id; }
+
+    public void addSession(Session sesh) {
+
+    }
+
+    public void removeSession(String id) {
+
+    }
+
+    public Session findSession(String id) {
+        return null;
+    }
 
     public void setBirth(LocalDate birth) { this.birth = birth; }
     public void setGpa(String gpa) { this.gpa = gpa; }
     public void setStartDate(LocalDate startdate) { this.startdate = startdate; }
-    public void setId(String id) { this.id = id; }
 }

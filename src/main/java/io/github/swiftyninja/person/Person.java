@@ -7,11 +7,13 @@ public abstract class Person implements Comparable<Person> {
     private PersonAddress address;
     private String email;
     private String phone;
+    private String id;
 
-    protected Person() {
-        this(new PersonName(), new PersonAddress(), "", "");
+    protected Person(String id) {
+        this(id, new PersonName(), new PersonAddress(), "", "");
     }
-    protected Person(PersonName name, PersonAddress address, String email, String phone) {
+    protected Person(String id, PersonName name, PersonAddress address, String email, String phone) {
+        this.id = id;
         setName(name);
         setAddress(address);
         setEmail(email);
@@ -22,6 +24,7 @@ public abstract class Person implements Comparable<Person> {
     public String getAddress() { return address.toString(); }
     public String getEmail() { return email; }
     public String getPhone() { return phone; }
+    public String getId() { return id; }
 
     public void setPhone(String phone) { this.phone = phone; }
     public void setName(PersonName name) { this.name = name; }
@@ -43,19 +46,16 @@ public abstract class Person implements Comparable<Person> {
         if (this == o) return true;
         if (!(o instanceof Person)) return false;
         Person person = (Person) o;
-        return getName().equals(person.getName()) && getPhone().equals(person.getPhone());
+        return getId().equals(((Person) o).getId());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getPhone());
+        return Objects.hash(getId());
     }
 
     @Override
     public int compareTo(Person o) {
-        int i;
-        if ((i = this.name.compareTo(o.name)) != 0)
-            return i;
-        return 0;
+        return getId().compareTo(o.getId());
     }
 }

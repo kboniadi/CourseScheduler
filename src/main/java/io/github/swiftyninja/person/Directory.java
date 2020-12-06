@@ -9,19 +9,16 @@ public class Directory implements IDirectory {
         directory = new LinkedList<>();
     }
 
+    @Override
     public Person find(String id) {
         for (Person p : directory) {
-            if (p instanceof Student) {
-                if (((Student) p).getId().equals(id))
-                    return p;
-            } else if (p instanceof Faculty) {
-                if (((Faculty) p).getId().equals(id))
-                    return p;
-            }
+            if (p.getId().equals(id))
+                return p;
         }
         return null;
     }
 
+    @Override
     public void add(Person person) throws Exception {
         if (!directory.contains(person))
             directory.add(person);
@@ -29,6 +26,7 @@ public class Directory implements IDirectory {
             throw new Exception("Person already exists in directory");
     }
 
+    @Override
     public void remove(String id) throws Exception {
         Person temp = find(id);
         if (temp != null)
@@ -37,6 +35,7 @@ public class Directory implements IDirectory {
             throw new Exception("id not in directory");
     }
 
+    @Override
     public void replace(String id, Person person) throws Exception {
         Person temp = find(id);
         if (temp != null) {
