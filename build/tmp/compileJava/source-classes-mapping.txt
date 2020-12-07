@@ -2,25 +2,25 @@ io/github/swiftyninja/person/PersonName.java
  io.github.swiftyninja.person.PersonName
 io/github/swiftyninja/person/IDirectory.java
  io.github.swiftyninja.person.IDirectory
-CourseScheduler.java
- CourseScheduler
-io/github/swiftyninja/utilities/IdGenerator.java
- io.github.swiftyninja.utilities.IdGenerator
-io/github/swiftyninja/schedule/Course.java
- io.github.swiftyninja.schedule.Course
+io/github/swiftyninja/person/Student.java
+ io.github.swiftyninja.person.Student
+io/github/swiftyninja/person/Faculty.java
+ io.github.swiftyninja.person.Faculty
 io/github/swiftyninja/utilities/UUIDGenerator.java
  io.github.swiftyninja.utilities.UUIDGenerator
+io/github/swiftyninja/person/Directory.java
+ io.github.swiftyninja.person.Directory
 io/github/swiftyninja/person/Person.java
  io.github.swiftyninja.person.Person
 io/github/swiftyninja/utilities/DataValidation.java
  io.github.swiftyninja.utilities.DataValidation
 io/github/swiftyninja/person/PersonAddress.java
  io.github.swiftyninja.person.PersonAddress
-io/github/swiftyninja/person/Student.java
- io.github.swiftyninja.person.Student
-io/github/swiftyninja/person/Faculty.java
- io.github.swiftyninja.person.Faculty
-io/github/swiftyninja/person/Directory.java
- io.github.swiftyninja.person.Directory
+io/github/swiftyninja/utilities/IdGenerator.java
+ io.github.swiftyninja.utilities.IdGenerator
 io/github/swiftyninja/schedule/Session.java
  io.github.swiftyninja.schedule.Session
+io/github/swiftyninja/schedule/Course.java
+ io.github.swiftyninja.schedule.Course
+CourseScheduler.java
+ CourseScheduler
