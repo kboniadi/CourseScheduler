@@ -10,25 +10,28 @@ public class Directory implements IDirectory {
     }
 
     @Override
-    public Person find(String id) {
+    public Object find(String personID) {
         for (Person p : directory) {
-            if (p.getId().equals(id))
+            if (p.getId().equals(personID))
                 return p;
         }
         return null;
     }
 
     @Override
-    public void add(Person person) throws Exception {
-        if (!directory.contains(person))
-            directory.add(person);
+    public void add(Object obj) throws Exception {
+        if (!(obj instanceof Person))
+            return;
+
+        if (!directory.contains(obj))
+            directory.add((Person) obj);
         else
             throw new Exception("Person already exists in directory");
     }
 
     @Override
-    public void remove(String id) throws Exception {
-        Person temp = find(id);
+    public void remove(String personID) throws Exception {
+        Person temp = (Person) find(personID);
         if (temp != null)
             directory.remove(temp);
         else
@@ -36,13 +39,13 @@ public class Directory implements IDirectory {
     }
 
     @Override
-    public void replace(String id, Person person) throws Exception {
-        Person temp = find(id);
+    public void replace(String personID, Object person) throws Exception {
+        Person temp = (Person) find(personID);
         if (temp != null) {
             directory.remove(temp);
-            directory.add(person);
+            directory.add((Person) person);
         } else {
-            throw new Exception("id was not in database");
+            throw new Exception("id was not in directory");
         }
     }
 

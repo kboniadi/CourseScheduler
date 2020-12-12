@@ -31,8 +31,12 @@ public class Student extends Person {
     }
 
     public String getBirth() { return birth.toString(); }
-    public String getGpa() { return gpa; }
+    public String getGpa() {
+        return Double.toString((Integer.parseInt(gpa) / 100.0));
+    }
     public String getStartDate() { return startdate.toString(); }
+    public ArrayList<Session> getClasses() { return classes; }
+    public int numOfClasses() { return classes.size(); }
 
     public void setBirth(LocalDate birth) { this.birth = birth; }
     public void setGpa(String gpa) { this.gpa = gpa; }
@@ -43,11 +47,32 @@ public class Student extends Person {
             classes.add(sesh);
     }
 
-    public void removeSession(String id) {
-        classes.removeIf(n -> n.getSessionId().equals(id));
+    public void removeSession(String sessionID) {
+        classes.removeIf(n -> n.getSessionId().equals(sessionID));
     }
 
     public Session findSession(String sessionId) {
         return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
+    }
+
+    public void printMyClasses() {
+        if (classes.isEmpty()) {
+            System.out.println("\nYour schedule is empty");
+            return;
+        }
+        StringBuilder out = new StringBuilder();
+        out.append(String.format("%n%-10s%-10s%-20s%n", "TICKET", "Course", "INSTRUCTOR"));
+        out.append("-".repeat(40));
+        for (Session s : classes) {
+            out.append(String.format("%n%-10s%-10s%-20s%n", s.getSessionId(), s.getCourseID(), (s.getTeacher() == null ? "N/A" : s.getTeacher().getName())));
+        }
+        System.out.println(out.toString());
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nBirthday: " + birth.toString() +
+                "\nSchool start: " + startdate.toString() + "\nGPA: " + getGpa();
+
     }
 }

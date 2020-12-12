@@ -2,17 +2,17 @@ package io.github.swiftyninja.person;
 
 import java.util.Objects;
 
-class PersonAddress implements Comparable<PersonAddress> {
+public class PersonAddress implements Comparable<PersonAddress> {
     public String street;
     public String city;
     public String state;
     public int zip;
 
-    PersonAddress() {
+    public PersonAddress() {
         this("", "", "", 0);
     }
 
-    PersonAddress(String street, String city, String state, int zip) {
+    public PersonAddress(String street, String city, String state, int zip) {
         this.street = street;
         this.city = city;
         this.state = state;
@@ -21,13 +21,9 @@ class PersonAddress implements Comparable<PersonAddress> {
 
     @Override
     public String toString() {
-        return "PersonAddress{" +
-                "street='" + street + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zip=" + zip +
-                '}';
+        return street + '\n' + city + ", " + state + " " + zip;
     }
+
 
     @Override
     public boolean equals(Object o) {

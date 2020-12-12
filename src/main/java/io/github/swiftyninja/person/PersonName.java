@@ -7,11 +7,11 @@ public class PersonName implements Comparable<PersonName> {
     public String middle;
     public String last;
 
-    PersonName() {
+    public PersonName() {
         this("", "", "");
     }
 
-    PersonName(String first, String middle, String last) {
+    public PersonName(String first, String middle, String last) {
         this.first = first;
         this.middle = middle;
         this.last = last;

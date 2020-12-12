@@ -33,12 +33,7 @@ public abstract class Person implements Comparable<Person> {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name=" + name +
-                ", address=" + address +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                '}';
+        return name + "\n" + address + "\n" + email + "\n" + phone + "\n";
     }
 
     @Override

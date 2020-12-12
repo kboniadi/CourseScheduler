@@ -33,8 +33,8 @@ public class Faculty extends Person {
             classes.add(sesh);
     }
 
-    public void removeSession(String id) {
-        classes.removeIf(n -> n.getSessionId().equals(id));
+    public void removeSession(String sessionID) {
+        classes.removeIf(n -> n.getSessionId().equals(sessionID));
     }
 
     public Session findSession(String sessionId) {

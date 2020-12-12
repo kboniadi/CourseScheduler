@@ -3,8 +3,11 @@ package io.github.swiftyninja.utilities;
 import java.util.UUID;
 
 public class UUIDGenerator implements IdGenerator {
-    @Override
+
     public String generateId() {
-        return UUID.randomUUID().toString();
+        String temp = UUID.randomUUID().toString();
+        // shrinks number to 7 chars
+        return temp.substring(0, temp.indexOf("-"));
     }
+
 }
