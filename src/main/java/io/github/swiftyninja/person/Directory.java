@@ -9,6 +9,10 @@ public class Directory implements IDirectory {
         directory = new LinkedList<>();
     }
 
+    public LinkedList<Person> getList() {
+        return directory;
+    }
+
     @Override
     public Object find(String personID) {
         for (Person p : directory) {

@@ -18,15 +18,15 @@ io/github/swiftyninja/schedule/CourseSchedule.java
  io.github.swiftyninja.schedule.CourseSchedule
 io/github/swiftyninja/person/Student.java
  io.github.swiftyninja.person.Student
-io/github/swiftyninja/utilities/FileParser.java
- io.github.swiftyninja.utilities.FileParser
+io/github/swiftyninja/person/Directory.java
+ io.github.swiftyninja.person.Directory
 io/github/swiftyninja/person/Faculty.java
  io.github.swiftyninja.person.Faculty
 io/github/swiftyninja/schedule/Course.java
  io.github.swiftyninja.schedule.Course
 io/github/swiftyninja/schedule/Session.java
  io.github.swiftyninja.schedule.Session
-io/github/swiftyninja/person/Directory.java
- io.github.swiftyninja.person.Directory
+io/github/swiftyninja/utilities/FileParser.java
+ io.github.swiftyninja.utilities.FileParser
 CourseScheduler.java
  CourseScheduler

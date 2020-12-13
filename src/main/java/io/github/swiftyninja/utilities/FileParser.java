@@ -14,8 +14,7 @@ import java.util.Scanner;
 public final class FileParser {
     private FileParser() {}
 
-    public static void parseStudentFile(String file_name, Directory list) {
-        IdGenerator generator = new SequencialID();
+    public static void parseStudentFile(String file_name, Directory list, IdGenerator gen) {
         try {
             File file = new File(file_name);
             Scanner in = new Scanner(file);
@@ -23,7 +22,7 @@ public final class FileParser {
             in.nextLine();
             while (in.hasNext()) {
                 String[] data = in.nextLine().split("[|]");
-                list.add(new Student(generator.generateId(), new PersonName(data[0], data[1], data[2]),
+                list.add(new Student(gen.generateId(), new PersonName(data[0], data[1], data[2]),
                         new PersonAddress(data[3], data[4], data[5], Integer.parseInt(data[6])), data[7],
                         data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10], LocalDate.parse(data[11], DateTimeFormatter.ofPattern("MM/dd/yyyy"))));
             }
@@ -32,8 +31,7 @@ public final class FileParser {
         }
     }
 
-    public static void parseFacultyFile(String file_name, Directory list) {
-        IdGenerator generator = new SequencialID();
+    public static void parseFacultyFile(String file_name, Directory list, IdGenerator gen) {
         try {
             File file = new File(file_name);
             Scanner in = new Scanner(file);
@@ -41,7 +39,7 @@ public final class FileParser {
             in.nextLine();
             while (in.hasNext()) {
                 String[] data = in.nextLine().split("[|]");
-                list.add(new Faculty(generator.generateId(), new PersonName(data[0], data[1], data[2]),
+                list.add(new Faculty(gen.generateId(), new PersonName(data[0], data[1], data[2]),
                         new PersonAddress(data[3], data[4], data[5], Integer.parseInt(data[6])), data[7],
                         data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10].equalsIgnoreCase("yes")));
             }
@@ -50,7 +48,7 @@ public final class FileParser {
         }
     }
 
-    public static void parseCourseFile(String course_file_name, String session_file_name, CourseSchedule list) {
+    public static void parseCourseFile(String course_file_name, String session_file_name, CourseSchedule list, IdGenerator gen) {
         try {
             File course_file = new File(course_file_name);
             File session_file = new File(session_file_name);
@@ -66,7 +64,7 @@ public final class FileParser {
             inSession.nextLine();
             while (inSession.hasNext()) {
                 String[] data = inSession.nextLine().split("[|]");
-                ((Course) list.find(data[0])).addSessions(new Session(data[0], data[1],
+                ((Course) list.find(data[0])).addSessions(new Session(data[0], gen.generateId(),
                         Integer.parseInt(data[2]), Integer.parseInt(data[3])));
             }
         } catch (Exception e) {

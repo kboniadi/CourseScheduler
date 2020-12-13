@@ -10,6 +10,10 @@ public class CourseSchedule implements IDirectory {
         courseList = new LinkedList<>();
     }
 
+    public LinkedList<Course> getList() {
+        return courseList;
+    }
+
     @Override
     public Object find(String courseID) {
         for (Course c : courseList) {
