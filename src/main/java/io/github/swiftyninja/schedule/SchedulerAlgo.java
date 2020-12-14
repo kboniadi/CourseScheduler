@@ -1,6 +1,7 @@
 package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.Directory;
+import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Person;
 import io.github.swiftyninja.person.Student;
 import io.github.swiftyninja.utilities.Configuration;
@@ -41,6 +42,8 @@ public class SchedulerAlgo implements IAutoScheduler {
             for (Course c : schedule.getList()) {
                 if (p instanceof Student) {
 
+
+                } else if (p instanceof Faculty) {
 
                 }
             }

@@ -25,9 +25,9 @@ public class Configuration {
             while (in.hasNext()) {
                 String line = in.nextLine().trim();
                 if (line.compareTo("#student") == 0)
-                    parseStudent(file);
+                    parseStudent(in);
                 else if (line.compareTo("#faculty") == 0)
-                    parseFaculty(file);
+                    parseFaculty(in);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -35,14 +35,14 @@ public class Configuration {
         empty = false;
     }
 
-    private void parseStudent(File file) throws FileNotFoundException {
+    private void parseStudent(Scanner in) throws FileNotFoundException {
         ControlParams id = ControlParams.NONE;
         String value = "";
-        Scanner in = new Scanner(file);
+//        Scanner in = new Scanner(file);
 
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
-            if (!getConfigBlockLine(file, map))
+            if (!getConfigBlockLine(in, map))
                 break;
 
             // add more params here
@@ -57,14 +57,14 @@ public class Configuration {
         }
     }
 
-    private void parseFaculty(File file) throws FileNotFoundException {
+    private void parseFaculty(Scanner in) throws FileNotFoundException {
         ControlParams id = ControlParams.NONE;
         String value = "";
-        Scanner in = new Scanner(file);
+//        Scanner in = new Scanner(file);
 
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
-            if (!getConfigBlockLine(file, map))
+            if (!getConfigBlockLine(in, map))
                 break;
 
             // add more params here
@@ -80,8 +80,8 @@ public class Configuration {
     }
 
 
-    private boolean getConfigBlockLine(File file, HashMap<String, String> map) throws FileNotFoundException {
-        Scanner in = new Scanner(file);
+    private boolean getConfigBlockLine(Scanner in, HashMap<String, String> map) throws FileNotFoundException {
+//        Scanner in = new Scanner(file);
 
         while (in.hasNext()) {
             String line = in.nextLine().trim();
@@ -90,7 +90,7 @@ public class Configuration {
                 return false;
             int loc = line.indexOf('=');
             if (loc != -1) {
-                map.put(line.substring(0, loc).trim(), line.substring(loc + 1, line.length()).trim());
+                map.put(line.substring(0, loc).trim(), line.substring(loc + 1).trim());
                 return true;
             }
         }

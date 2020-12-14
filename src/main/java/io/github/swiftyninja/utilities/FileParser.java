@@ -6,7 +6,6 @@ import io.github.swiftyninja.schedule.CourseSchedule;
 import io.github.swiftyninja.schedule.Session;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -24,7 +23,8 @@ public final class FileParser {
                 String[] data = in.nextLine().split("[|]");
                 list.add(new Student(gen.generateId(), new PersonName(data[0], data[1], data[2]),
                         new PersonAddress(data[3], data[4], data[5], Integer.parseInt(data[6])), data[7],
-                        data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10], LocalDate.parse(data[11], DateTimeFormatter.ofPattern("MM/dd/yyyy"))));
+                        data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10],
+                        LocalDate.parse(data[11], DateTimeFormatter.ofPattern("MM/dd/yyyy"))));
             }
         } catch (Exception e) {
             e.printStackTrace();

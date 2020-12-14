@@ -73,6 +73,14 @@ public class Session {
         }
     }
 
+    public boolean isStudentInSession(String personID) {
+        for (Student s : students) {
+            if (s.getId().equals(personID))
+                return true;
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return String.format("%n%-10s%-15s%-20s%-10s%n", getSessionId(), (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" : getTeacher().getName()), updateStatus());

@@ -14,7 +14,7 @@ public class Course {
 //    private int maxStudent;
     private boolean status;
     private ArrayList<Session> sessions;
-    private ArrayList<Student> students;
+//    private ArrayList<Student> students;
 
     public Course(String depart, String code, String description) {
         setDepart(depart);
@@ -22,7 +22,7 @@ public class Course {
         setDescription(description);
         setCourseID(getDepartment() + getCode());
         sessions = new ArrayList<>();
-        students = new ArrayList<>();
+//        students = new ArrayList<>();
     }
 
     public String getDepartment() { return depart; }
@@ -65,23 +65,21 @@ public class Course {
             throw new Exception("that id is not in directory");
     }
 
-    public void addStudent(Student stud) throws Exception {
-        if (!students.contains(stud))
-            students.add(stud);
-        else
-            throw new Exception("student already in a class");
+    public void addStudent(Student stud, String sessionID) throws Exception {
+        for (Session s : sessions) {
+            if (s.getSessionId().equals(sessionID) && !s.isStudentInSession(stud.getId())) {
+                s.addStudent(stud);
+            }
+        }
     }
 
     public void removeStudent(String personID) throws Exception {
-        Student temp = null;
-        for (var v : students) {
-            if (v.getId().equals(personID))
-                temp = v;
+        for (Session s : sessions) {
+            if (s.isStudentInSession(personID)) {
+                s.removeStudent(personID);
+                break;
+            }
         }
-        if (temp != null)
-            students.remove(temp);
-        else
-            throw new Exception("student not in class");
     }
 
     @Override
