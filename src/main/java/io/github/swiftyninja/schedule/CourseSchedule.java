@@ -1,16 +1,16 @@
 package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.IDirectory;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class CourseSchedule implements IDirectory {
-    private LinkedList<Course> courseList;
+    private ArrayList<Course> courseList;
 
     public CourseSchedule() {
-        courseList = new LinkedList<>();
+        courseList = new ArrayList<>();
     }
 
-    public LinkedList<Course> getList() {
+    public ArrayList<Course> getList() {
         return courseList;
     }
 

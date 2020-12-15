@@ -20,6 +20,7 @@ public class Faculty extends Person {
         super(id, name, address, email, phone);
         setHired(hired);
         setTenured(tenured);
+        classes = new ArrayList<>();
     }
 
     public LocalDate getHired() { return hired; }

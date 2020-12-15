@@ -2,7 +2,6 @@ package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Student;
-
 import java.util.ArrayList;
 
 public class Session {
@@ -40,7 +39,17 @@ public class Session {
     public void setStatus(boolean status) { this.status = status; }
     public void setStudentCount(int studentCount) { this.studentCount = studentCount; }
 
-    public String updateStatus() {
+    public boolean isSessionFull() {
+        return getStudentCount() == getMaxStudent();
+    }
+
+    public void updateStatus() {
+        if (getStudentCount() < getMaxStudent() && !isStatus())
+            setStatus(true);
+        else if (getMaxStudent() == getStudentCount())
+            setStatus(false);
+    }
+    public String printStatus() {
         if (getStudentCount() < getMaxStudent()) {
             setStatus(true);
             return "OPEN";
@@ -54,6 +63,7 @@ public class Session {
         if (!students.contains(stud)) {
             students.add(stud);
             studentCount++;
+            updateStatus();
         } else {
             throw new Exception("student already in a class");
         }
@@ -68,6 +78,7 @@ public class Session {
         if (temp != null) {
             students.remove(temp);
             studentCount--;
+            updateStatus();
         } else {
             throw new Exception("student not in class");
         }
@@ -83,6 +94,6 @@ public class Session {
 
     @Override
     public String toString() {
-        return String.format("%n%-10s%-15s%-20s%-10s%n", getSessionId(), (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" : getTeacher().getName()), updateStatus());
+        return String.format("%n%-10s%-15s%-20s%-10s%n", getSessionId(), (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" : getTeacher().getName()), printStatus());
     }
 }

@@ -2,21 +2,35 @@ package io.github.swiftyninja.utilities;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Configuration {
-    private HashMap<ControlParams, String> students;
-    private HashMap<ControlParams, String> faculty;
-    private boolean empty;
+public final class Configuration {
+    private static Configuration instance;
+    private String studentMaxCourses;
+    private String studentMaxSessionPerCourse;
+    private String facultyMaxCourses;
+    private String facultyMaxSessionPerCourse;
 
-    public Configuration() {
+    private static boolean empty;
+
+    private Configuration() {
         empty = false;
     }
 
+    public static Configuration getInstance() {
+        // double locking mechanism
+        if (instance == null) {
+            synchronized (Configuration.class) {
+                if (instance == null)
+                    instance = new Configuration();
+            }
+        }
+        return instance;
+    }
+
     public void parseFile(String file_name) {
-        students.clear();
-        faculty.clear();
 
         try {
             File file = new File(file_name);
@@ -36,8 +50,6 @@ public class Configuration {
     }
 
     private void parseStudent(Scanner in) throws FileNotFoundException {
-        ControlParams id = ControlParams.NONE;
-        String value = "";
 //        Scanner in = new Scanner(file);
 
         while (in.hasNext()) {
@@ -47,19 +59,14 @@ public class Configuration {
 
             // add more params here
             if (map.containsKey("courses")) {
-                id = ControlParams.COURSES;
-                value = map.get("courses");
+                studentMaxCourses = map.get("courses");
             } else if (map.containsKey("sessions")) {
-                id = ControlParams.SESSIONS;
-                value = map.get("sessions");
+                studentMaxSessionPerCourse = map.get("sessions");
             }
-            students.put(id, value);
         }
     }
 
     private void parseFaculty(Scanner in) throws FileNotFoundException {
-        ControlParams id = ControlParams.NONE;
-        String value = "";
 //        Scanner in = new Scanner(file);
 
         while (in.hasNext()) {
@@ -69,13 +76,10 @@ public class Configuration {
 
             // add more params here
             if (map.containsKey("courses")) {
-                id = ControlParams.COURSES;
-                value = map.get("courses");
+                facultyMaxCourses = map.get("courses");
             } else if (map.containsKey("sessions")) {
-                id = ControlParams.SESSIONS;
-                value = map.get("sessions");
+                facultyMaxSessionPerCourse = map.get("sessions");
             }
-            students.put(id, value);
         }
     }
 
@@ -97,20 +101,20 @@ public class Configuration {
         return false;
     }
 
-    public String getStudentControlParam(ControlParams param) {
-        return students.getOrDefault(param, null);
+    public String getStudentMaxCourses() {
+        return studentMaxCourses;
     }
 
-    public String getFacultyControlParam(ControlParams param) {
-        return faculty.getOrDefault(param, null);
+    public String getStudentMaxSessionPerCourse() {
+        return studentMaxSessionPerCourse;
     }
 
-    public boolean isStudentParamExist(ControlParams param) {
-        return students.getOrDefault(param, null) != null;
+    public String getFacultyMaxCourses() {
+        return facultyMaxCourses;
     }
 
-    public boolean isFacultyParamExist(ControlParams param) {
-        return faculty.getOrDefault(param, null) != null;
+    public String getFacultyMaxSessionPerCourse() {
+        return facultyMaxSessionPerCourse;
     }
 
     public boolean isEmpty() {

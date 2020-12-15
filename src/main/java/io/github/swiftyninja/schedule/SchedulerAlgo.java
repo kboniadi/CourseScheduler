@@ -5,46 +5,49 @@ import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Person;
 import io.github.swiftyninja.person.Student;
 import io.github.swiftyninja.utilities.Configuration;
-import io.github.swiftyninja.utilities.ControlParams;
+
+import java.util.Random;
 
 public class SchedulerAlgo implements IAutoScheduler {
-    private Configuration config;
 
-    SchedulerAlgo(String file_name) {
-        config = new Configuration();
-        config.parseFile(file_name);
+    public SchedulerAlgo(String file_name) {
+        Configuration.getInstance().parseFile(file_name);
     }
 
     @Override
-    public void scheduleGenerator(CourseSchedule schedule, Directory personDir) {
-        int studsId = 0;
-        int studCourses = 0;
-        int studSessions = 0;
-        int facID = 0;
-        int facCourses = 0;
-        int facSessions = 0;
-
-        if (config.isStudentParamExist(ControlParams.ID))
-            studsId = Integer.parseInt(config.getStudentControlParam(ControlParams.ID));
-        else if (config.isStudentParamExist(ControlParams.COURSES))
-            studCourses = Integer.parseInt(config.getStudentControlParam(ControlParams.COURSES));
-        else if (config.isStudentParamExist(ControlParams.SESSIONS))
-            studSessions = Integer.parseInt(config.getStudentControlParam(ControlParams.SESSIONS));
-
-        if (config.isFacultyParamExist(ControlParams.ID))
-            facID = Integer.parseInt(config.getFacultyControlParam(ControlParams.ID));
-        else if (config.isFacultyParamExist(ControlParams.COURSES))
-            facCourses = Integer.parseInt(config.getFacultyControlParam(ControlParams.COURSES));
-        else if (config.isFacultyParamExist(ControlParams.SESSIONS))
-            facSessions = Integer.parseInt(config.getFacultyControlParam(ControlParams.SESSIONS));
+    public void scheduleGenerator(CourseSchedule schedule, Directory personDir) throws Exception {
+        Random rand = new Random();
 
         for (Person p : personDir.getList()) {
+            int courseCounter = 0;
             for (Course c : schedule.getList()) {
-                if (p instanceof Student) {
-
+                int numOfSessions = c.getSessions().size();
+                if (p instanceof Student && !c.isCourseFull()) {
+                    int randomNum = rand.nextInt(numOfSessions);
+                    while (c.getSessions().get(randomNum).isStudentInSession(p.getId()))
+                        randomNum = rand.nextInt(numOfSessions);
+                    if (!c.getSessions().get(randomNum).isSessionFull()) {
+                        c.getSessions().get(randomNum).addStudent((Student) p);
+                        ((Student) p).addSession(c.getSessions().get(randomNum));
+                        courseCounter++;
+                    }
+                    if (courseCounter + 1 > Integer.parseInt(Configuration.getInstance().getStudentMaxCourses()))
+                        break;
 
                 } else if (p instanceof Faculty) {
-
+                    int counter = 0;
+                    while (counter < Integer.parseInt(Configuration.getInstance().getFacultyMaxSessionPerCourse()) && !c.isCourseStaffed()) {
+                        int randomNum = rand.nextInt(numOfSessions);
+                        if (c.getSessions().get(randomNum).getTeacher() == null) {
+                            c.getSessions().get(randomNum).setTeacher((Faculty) p);
+                            ((Faculty) p).addSession(c.getSessions().get(randomNum));
+                            counter++;
+                        }
+                    }
+                    if (counter != 0)
+                        courseCounter++;
+                    if (courseCounter + 1 > Integer.parseInt(Configuration.getInstance().getFacultyMaxCourses()))
+                        break;
                 }
             }
         }

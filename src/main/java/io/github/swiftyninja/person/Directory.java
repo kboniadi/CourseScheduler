@@ -1,15 +1,15 @@
 package io.github.swiftyninja.person;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 public class Directory implements IDirectory {
-    private LinkedList<Person> directory;
+    private ArrayList<Person> directory;
 
     public Directory() {
-        directory = new LinkedList<>();
+        directory = new ArrayList<>();
     }
 
-    public LinkedList<Person> getList() {
+    public ArrayList<Person> getList() {
         return directory;
     }
 

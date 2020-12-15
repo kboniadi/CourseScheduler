@@ -33,6 +33,10 @@ public class Course {
 //    public int getMaxStudent() { return maxStudent; }
     public boolean isCancelled() { return status; }
 
+    public ArrayList<Session> getSessions() {
+        return sessions;
+    }
+
     public void setDepart(String depart) { this.depart = depart; }
     public void setCode(String code) { this.code = code; }
     public void setDescription(String description) { this.description = description; }
@@ -40,6 +44,22 @@ public class Course {
 //    public void setMinStudent(int minStudent) { this.minStudent = minStudent; }
 //    public void setMaxStudent(int maxStudent) { this.maxStudent = maxStudent; }
     public void setStatus(boolean status) { this.status = status; }
+
+    public boolean isCourseStaffed() {
+        for (Session s : sessions) {
+            if (s.getTeacher() == null)
+                return false;
+        }
+        return true;
+    }
+
+    public boolean isCourseFull() {
+        for (Session s : sessions) {
+            if (!s.isSessionFull())
+                return false;
+        }
+        return true;
+    }
 
     public Session find(String sessionID) {
         for (Session s : sessions) {

@@ -7,7 +7,7 @@ import io.github.swiftyninja.utilities.UUIDGenerator;
 import java.io.File;
 
 public class CourseScheduler {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         final String STUDENT_INPUT_FILE = "src/main/resources/inputFiles/student_info.csv";
         final String FACULTY_INPUT_FILE = "src/main/resources/inputFiles/faculty_info.csv";
         final String COURSE_INFO_FILE   = "src/main/resources/inputFiles/course_info.csv";
@@ -25,6 +25,9 @@ public class CourseScheduler {
         FileParser.parseStudentFile(STUDENT_INPUT_FILE, dir, new SequencialID());
         FileParser.parseFacultyFile(FACULTY_INPUT_FILE, dir, new SequencialID());
         FileParser.parseCourseFile(COURSE_INFO_FILE, SESSION_INFO_FILE, skd, new UUIDGenerator());
+
+        SchedulerAlgo test = new SchedulerAlgo("src/main/resources/inputFiles/Config.cfg");
+        test.scheduleGenerator(skd, dir);
         System.out.println("completed");
 
 //        final String MAIN_MENU = "\n--------------------------" +
