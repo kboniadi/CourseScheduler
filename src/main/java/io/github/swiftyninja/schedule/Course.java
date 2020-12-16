@@ -1,7 +1,6 @@
 package io.github.swiftyninja.schedule;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 import io.github.swiftyninja.person.Student;
 
@@ -10,11 +9,7 @@ public class Course {
     private String code;
     private String description;
     private String courseID;
-//    private int minStudent;
-//    private int maxStudent;
-    private boolean status;
     private ArrayList<Session> sessions;
-//    private ArrayList<Student> students;
 
     public Course(String depart, String code, String description) {
         setDepart(depart);
@@ -22,16 +17,12 @@ public class Course {
         setDescription(description);
         setCourseID(getDepartment() + getCode());
         sessions = new ArrayList<>();
-//        students = new ArrayList<>();
     }
 
     public String getDepartment() { return depart; }
     public String getCode() { return code; }
     public String getDescription() { return description; }
     public String getCourseID() { return courseID; }
-//    public int getMinStudent() { return minStudent; }
-//    public int getMaxStudent() { return maxStudent; }
-    public boolean isCancelled() { return status; }
 
     public ArrayList<Session> getSessions() {
         return sessions;
@@ -41,9 +32,14 @@ public class Course {
     public void setCode(String code) { this.code = code; }
     public void setDescription(String description) { this.description = description; }
     public void setCourseID(String courseID) { this.courseID = courseID; }
-//    public void setMinStudent(int minStudent) { this.minStudent = minStudent; }
-//    public void setMaxStudent(int maxStudent) { this.maxStudent = maxStudent; }
-    public void setStatus(boolean status) { this.status = status; }
+
+    public boolean isCourseCancelled() {
+        for (Session s : sessions) {
+            if (!s.isCancelled())
+                return false;
+        }
+        return true;
+    }
 
     public boolean isCourseStaffed() {
         for (Session s : sessions) {
@@ -93,9 +89,9 @@ public class Course {
         }
     }
 
-    public void removeStudent(String personID) throws Exception {
+    public void removeStudent(String personID, String sessionID) throws Exception {
         for (Session s : sessions) {
-            if (s.isStudentInSession(personID)) {
+            if (s.getSessionId().equals(sessionID) && s.isStudentInSession(personID)) {
                 s.removeStudent(personID);
                 break;
             }
@@ -106,8 +102,8 @@ public class Course {
     public String toString() {
         StringBuilder out = new StringBuilder("\n");
         out.append(depart).append(" ").append(code).append(" - ").append(description);
-        out.append(String.format("%n%-10s%-15s%-20s%-10s%n", "TICKET", "SEAT COUNT", "INSTRUCTOR", "STATUS"));
-        out.append("-".repeat(55));
+        out.append(String.format("%n%-10s%-10s%-20s%-35s%-10s%n", "TICKET","COURSE", "SEAT COUNT", "INSTRUCTOR", "STATUS"));
+        out.append("-".repeat(85));
         for (Session s : sessions) {
             out.append(s);
         }

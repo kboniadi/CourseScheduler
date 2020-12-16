@@ -1,6 +1,7 @@
 package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.IDirectory;
+
 import java.util.ArrayList;
 
 public class CourseSchedule implements IDirectory {
@@ -12,6 +13,34 @@ public class CourseSchedule implements IDirectory {
 
     public ArrayList<Course> getList() {
         return courseList;
+    }
+
+    public String scheduledCourseSessions() {
+        StringBuilder out = new StringBuilder();
+        StringBuilder out2 = new StringBuilder();
+
+        out2.append("\nStudent list for each Session:\n");
+        for (Course c : courseList) {
+            if (!c.isCourseCancelled()) {
+                out.append(c);
+                for (Session s : c.getSessions()) {
+                    out2.append(String.format("%nSession id: %s | Course: %s | Student count: %s%n", s.getSessionId(), s.getCourseID(), s.getStudentCount()));
+                    out2.append("-".repeat(58));
+                    out2.append("\n").append(s.studentsInSession());
+                }
+            }
+        }
+
+        return out.append(out2).toString();
+    }
+
+    public String unScheduledCourseSessions() {
+        StringBuilder out = new StringBuilder();
+        for (Course c : courseList) {
+            if (c.isCourseCancelled())
+                out.append(c);
+        }
+        return out.toString();
     }
 
     @Override
@@ -41,18 +70,6 @@ public class CourseSchedule implements IDirectory {
             courseList.remove(temp);
         else
             throw new Exception("id not in directory");
-    }
-
-    @Override
-    public void replace(String courseID, Object obj) throws Exception {
-        Course temp = (Course) find(courseID);
-        if (temp != null) {
-            int index = courseList.indexOf(temp);
-            courseList.remove(temp);
-            courseList.add(index, (Course) obj);
-        } else {
-            throw new Exception("id was not in directory");
-        }
     }
 
     @Override

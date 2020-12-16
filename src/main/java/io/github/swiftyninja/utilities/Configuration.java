@@ -2,7 +2,6 @@ package io.github.swiftyninja.utilities;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Scanner;
 

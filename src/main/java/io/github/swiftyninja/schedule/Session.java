@@ -20,6 +20,7 @@ public class Session {
         setSessionId(sessionId);
         setMinStudent(minStudent);
         setMaxStudent(maxStudent);
+        setStatus(false);
         students = new ArrayList<>();
     }
 
@@ -28,7 +29,7 @@ public class Session {
     public int getMaxStudent() { return maxStudent; }
     public Faculty getTeacher() { return teacher; }
     public String getCourseID() { return courseID; }
-    public boolean isStatus() { return status; }
+    public boolean isCancelled() { return !status; }
     public int getStudentCount() { return studentCount; }
 
     public void setSessionId(String sessionId) { this.sessionId = sessionId; }
@@ -39,26 +40,34 @@ public class Session {
     public void setStatus(boolean status) { this.status = status; }
     public void setStudentCount(int studentCount) { this.studentCount = studentCount; }
 
+    public String studentsInSession() {
+        StringBuilder out = new StringBuilder();
+        for (Student s : students) {
+            out.append(String.format("%s %s%n", s.getName(), s.getId()));
+        }
+        return out.toString();
+    }
+
     public boolean isSessionFull() {
         return getStudentCount() == getMaxStudent();
     }
 
-    public void updateStatus() {
-        if (getStudentCount() < getMaxStudent() && !isStatus())
-            setStatus(true);
-        else if (getMaxStudent() == getStudentCount())
+    private void updateStatus() {
+        if (getStudentCount() < getMinStudent())
             setStatus(false);
-    }
-    public String printStatus() {
-        if (getStudentCount() < getMaxStudent()) {
+        else if (getStudentCount() >= getMinStudent() && getStudentCount() <= getMaxStudent())
             setStatus(true);
+    }
+
+    private String printStatus() {
+        if (getStudentCount() < getMaxStudent()) {
             return "OPEN";
         } else if (getMaxStudent() == getStudentCount()) {
-            setStatus(false);
             return "FULL";
         }
         return "";
     }
+
     public void addStudent(Student stud) throws Exception {
         if (!students.contains(stud)) {
             students.add(stud);
@@ -94,6 +103,8 @@ public class Session {
 
     @Override
     public String toString() {
-        return String.format("%n%-10s%-15s%-20s%-10s%n", getSessionId(), (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" : getTeacher().getName()), printStatus());
+        return String.format("%n%-10s%-10s%-20s%-35s%-10s%n", getSessionId(), getCourseID(), "Open Seats: " +
+                (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" :
+                getTeacher().getName() + " " + getTeacher().getId()), printStatus());
     }
 }

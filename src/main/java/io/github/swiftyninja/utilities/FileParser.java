@@ -6,6 +6,7 @@ import io.github.swiftyninja.schedule.CourseSchedule;
 import io.github.swiftyninja.schedule.Session;
 
 import java.io.File;
+import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
