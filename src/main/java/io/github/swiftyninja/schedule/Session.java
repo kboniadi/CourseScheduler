@@ -3,7 +3,6 @@ package io.github.swiftyninja.schedule;
 import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Student;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Objects;
 

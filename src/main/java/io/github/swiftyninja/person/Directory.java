@@ -2,14 +2,24 @@ package io.github.swiftyninja.person;
 
 import java.util.ArrayList;
 
+/**
+ * Directory class that contains Person info
+ */
 public final class Directory implements IDirectory {
     private static Directory instance;
     private ArrayList<Person> directory;
 
+    /**
+     * no-arg Constructor
+     */
     private Directory() {
         directory = new ArrayList<>();
     }
 
+    /**
+     *
+     * @return instance of Directory class
+     */
     public static Directory getInstance() {
         // double locking mechanism
         if (instance == null) {
@@ -21,10 +31,18 @@ public final class Directory implements IDirectory {
         return instance;
     }
 
+    /**
+     *
+     * @return list of Perrson in dir
+     */
     public ArrayList<Person> getList() {
         return directory;
     }
 
+    /**
+     *
+     * @return formatted String of scheduled students
+     */
     public String scheduledStudents() {
         StringBuilder out = new StringBuilder();
         for (Person p : directory) {
@@ -38,6 +56,10 @@ public final class Directory implements IDirectory {
         return out.toString();
     }
 
+    /**
+     *
+     * @return formatted String un-scheduled students
+     */
     public String unScheduledStudents() {
         int count = 0;
         StringBuilder out = new StringBuilder();
@@ -52,6 +74,10 @@ public final class Directory implements IDirectory {
         return out.toString();
     }
 
+    /**
+     *
+     * @return formatted String facultyInfo
+     */
     public String facultyInfo() {
         StringBuilder out = new StringBuilder();
         out.append("Faculty's in Directory:\n\n");
@@ -70,6 +96,11 @@ public final class Directory implements IDirectory {
         return out.toString();
     }
 
+    /**
+     *
+     * @param personID object you want to search for
+     * @return Object type for flexibility
+     */
     @Override
     public Object find(String personID) {
         for (Person p : directory) {
@@ -79,6 +110,11 @@ public final class Directory implements IDirectory {
         return null;
     }
 
+    /**
+     *
+     * @param obj item to add to dir
+     * @throws Exception nullException
+     */
     @Override
     public void add(Object obj) throws Exception {
         if (!(obj instanceof Person))
@@ -90,6 +126,11 @@ public final class Directory implements IDirectory {
             throw new Exception("Person already exists in directory");
     }
 
+    /**
+     *
+     * @param personID object you want to search for
+     * @throws Exception
+     */
     @Override
     public void remove(String personID) throws Exception {
         Person temp = (Person) find(personID);
@@ -99,6 +140,10 @@ public final class Directory implements IDirectory {
             throw new Exception("id not in directory");
     }
 
+    /**
+     *
+     * @return default String containing dir info
+     */
     @Override
     public String toString() {
         return "Directory{" +

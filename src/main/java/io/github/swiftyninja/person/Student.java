@@ -1,11 +1,13 @@
 package io.github.swiftyninja.person;
 
 import io.github.swiftyninja.schedule.Session;
-
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ * Student class
+ */
 public class Student extends Person implements Cloneable, Serializable {
     @Serial
     private static final long serialVersionUID = 1L;

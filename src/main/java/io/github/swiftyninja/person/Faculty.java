@@ -1,11 +1,13 @@
 package io.github.swiftyninja.person;
 
 import io.github.swiftyninja.schedule.Session;
-
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ * Faculty class containing info relating to a faculty member
+ */
 public class Faculty extends Person implements Cloneable, Serializable {
     @Serial
     private static final long serialVersionUID = 2L;
@@ -13,6 +15,10 @@ public class Faculty extends Person implements Cloneable, Serializable {
     private boolean tenured;
     private ArrayList<Session> classes;
 
+    /**
+     * Constructor
+     * @param id faculty unique id
+     */
     public Faculty(String id) {
         super(id);
         setHired(LocalDate.now());
@@ -20,6 +26,16 @@ public class Faculty extends Person implements Cloneable, Serializable {
         classes = new ArrayList<>();
     }
 
+    /**
+     *
+     * @param id faculty unique id
+     * @param name name
+     * @param address address
+     * @param email email
+     * @param phone phone number
+     * @param hired date hired
+     * @param tenured are they tenured
+     */
     public Faculty(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate hired, boolean tenured) {
         super(id, name, address, email, phone);
         setHired(hired);
@@ -27,31 +43,76 @@ public class Faculty extends Person implements Cloneable, Serializable {
         classes = new ArrayList<>();
     }
 
+    /**
+     *
+     * @return list of Sessions being taught by person
+     */
     public ArrayList<Session> getClasses() { return classes; }
+
+    /**
+     *
+     * @return hired date
+     */
     public LocalDate getHired() { return hired; }
+
+    /**
+     *
+     * @return is tenured
+     */
     public boolean isTenured() { return tenured; }
 
+    /**
+     *
+     * @param hired setter
+     */
     public void setHired(LocalDate hired) { this.hired = hired; }
+
+    /**
+     *
+     * @param tenured setter
+     */
     public void setTenured(boolean tenured) { this.tenured = tenured; }
 
+    /**
+     *
+     * @return check schedule to see if teaching
+     */
     public boolean isTeaching() {
         for (Session s : classes)
             if (!s.isCancelled()) return true;
         return false;
     }
+
+    /**
+     *
+     * @param sesh adds class session to faculty schedule
+     */
     public void addSession(Session sesh) {
         if (!classes.contains(sesh))
             classes.add(sesh);
     }
 
+    /**
+     *
+     * @param sessionID unique id
+     */
     public void removeSession(String sessionID) {
         classes.removeIf(n -> n.getSessionId().equals(sessionID));
     }
 
+    /**
+     *
+     * @param sessionId unique id
+     * @return Session object to that id
+     */
     public Session findSession(String sessionId) {
         return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
     }
 
+    /**
+     *
+     * @return all sessions
+     */
     public String listOfSessions() {
         StringBuilder out = new StringBuilder();
         for (Session s : classes) {
@@ -62,6 +123,10 @@ public class Faculty extends Person implements Cloneable, Serializable {
         return out.toString();
     }
 
+    /**
+     *
+     * @return formatted default String of info
+     */
     @Override
     public String toString() {
         return "-".repeat(149) +
@@ -72,11 +137,22 @@ public class Faculty extends Person implements Cloneable, Serializable {
                         super.toString(), hired, (isTenured() ? "Yes" : "No")) + "-".repeat(149) + "\n";
     }
 
+    /**
+     *
+     * @return adds cloneable logic to class
+     * @throws CloneNotSupportedException
+     */
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 
+    /**
+     *
+     * @return adds Serializable logic to class
+     * @throws IOException
+     * @throws ClassNotFoundException
+     */
     public Faculty deepCopy() throws IOException, ClassNotFoundException {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         ObjectOutputStream out = new ObjectOutputStream(bos);
