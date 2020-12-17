@@ -13,19 +13,32 @@ public class Directory implements IDirectory {
         return directory;
     }
 
-//    public String scheduledStudents() {
-//        StringBuilder out = new StringBuilder();
-//
-//    }
-    public void printStudents() {
-        System.out.println("Student's in Directory:");
+    public String scheduledStudents() {
+        StringBuilder out = new StringBuilder();
         for (Person p : directory) {
-            if (p instanceof Student)
-                System.out.println(p);
+            if (p instanceof Student && ((Student) p).isScheduled()) {
+                out.append("\n").append(p);
+                out.append(String.format("%n%-10s%-10s%-20s%-35s%-10s%n", "TICKET","COURSE", "SEAT COUNT", "INSTRUCTOR", "STATUS"));
+                out.append("-".repeat(85));
+                out.append(((Student) p).listOfClasses());
+            }
         }
+        return out.toString();
     }
 
-    public String printFaculty() {
+    public String unScheduledStudents() {
+        StringBuilder out = new StringBuilder();
+        for (Person p : directory) {
+            if (p instanceof Student && !((Student) p).isScheduled()) {
+                out.append("\n").append(p);
+                out.append("\nNO CLASSES THIS SEMESTER!!\n");
+            }
+        }
+        return out.toString();
+
+    }
+
+    public String facultyInfo() {
         StringBuilder out = new StringBuilder();
         out.append("Faculty's in Directory:\n\n");
         for (Person p : directory) {

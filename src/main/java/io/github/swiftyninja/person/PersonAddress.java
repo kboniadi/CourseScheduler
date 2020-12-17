@@ -21,7 +21,7 @@ public class PersonAddress implements Comparable<PersonAddress> {
 
     @Override
     public String toString() {
-        return street + '\n' + city + ", " + state + " " + zip;
+        return street + ", " + city + ", " + state + " " + zip;
     }
 
 

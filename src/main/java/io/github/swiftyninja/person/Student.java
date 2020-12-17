@@ -42,6 +42,24 @@ public class Student extends Person {
     public void setGpa(String gpa) { this.gpa = gpa; }
     public void setStartDate(LocalDate startdate) { this.startdate = startdate; }
 
+    public String listOfClasses() {
+        StringBuilder out = new StringBuilder();
+        for (Session s : classes) {
+            if (!s.isCancelled()) {
+                out.append(s);
+            }
+        }
+        return out.toString();
+    }
+
+    public boolean isScheduled() {
+        for (Session s : classes) {
+            if (!s.isCancelled())
+                return true;
+        }
+        return false;
+    }
+
     public void addSession(Session sesh) {
         if (!classes.contains(sesh))
             classes.add(sesh);
@@ -71,8 +89,11 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + "\nBirthday: " + birth.toString() +
-                "\nSchool start: " + startdate.toString() + "\nGPA: " + getGpa();
-
+        return "-".repeat(163) +
+                String.format("%n|%-25s|%-50s|%-30s|%-15s|%-15s|%-15s|%-5s|%n",
+                        "Name", "Address", "Email", "Phone", "Birthday", "Start Date", "GPA") +
+                "-".repeat(163) +
+                String.format("%n%-120s%-15s|%-15s|%-5s|%n",
+                        super.toString(), birth.toString(), startdate.toString(), getGpa()) + "-".repeat(163) + "\n";
     }
 }

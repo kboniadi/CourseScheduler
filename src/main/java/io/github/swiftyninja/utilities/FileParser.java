@@ -5,8 +5,9 @@ import io.github.swiftyninja.schedule.Course;
 import io.github.swiftyninja.schedule.CourseSchedule;
 import io.github.swiftyninja.schedule.Session;
 
-import java.io.File;
+import java.io.*;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -71,5 +72,23 @@ public final class FileParser {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static void dataOutputTry(String file_name, String data) throws IOException {
+        DataOutputStream out = null;
+        try {
+            File file = new File(file_name);
+            out = new DataOutputStream(new BufferedOutputStream(new FileOutputStream(file)));
+            out.write(data.getBytes(StandardCharsets.UTF_8));
+        } finally {
+            if (out != null)
+                out.close();
+        }
+    }
+
+    public static String abbreviate(String input, int maxLength) {
+        if (input.length() <= maxLength)
+            return input;
+        return input.substring(0, maxLength - 2).concat("..");
     }
 }

@@ -1,5 +1,7 @@
 package io.github.swiftyninja.person;
 
+import io.github.swiftyninja.utilities.FileParser;
+
 import java.util.Objects;
 
 public abstract class Person implements Comparable<Person> {
@@ -33,7 +35,7 @@ public abstract class Person implements Comparable<Person> {
 
     @Override
     public String toString() {
-        return name + "\n" + address + "\n" + email + "\n" + phone + "\n";
+        return String.format("|%-25s|%-50s|%-30s|%-15s|", name, FileParser.abbreviate(address.toString(), 50), FileParser.abbreviate(email, 30), phone);
     }
 
     @Override

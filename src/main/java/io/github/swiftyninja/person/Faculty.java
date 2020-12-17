@@ -1,6 +1,7 @@
 package io.github.swiftyninja.person;
 
 import io.github.swiftyninja.schedule.Session;
+import io.github.swiftyninja.utilities.FileParser;
 
 import java.lang.reflect.Array;
 import java.time.LocalDate;
@@ -62,6 +63,11 @@ public class Faculty extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + "Hired data: " + hired.toString() + "\nTenured: " + (isTenured() ? "Yes\n" : "No\n");
+        return "-".repeat(149) +
+                String.format("%n|%-25s|%-50s|%-30s|%-15s|%-15s|%-7s|%n",
+                        "Name", "Address", "Email", "Phone", "Hired Date", "Tenured") +
+                "-".repeat(149) +
+                String.format("%n%-120s%-15s|%-7s|%n",
+                        super.toString(), hired, (isTenured() ? "Yes" : "No")) + "-".repeat(149) + "\n";
     }
 }
