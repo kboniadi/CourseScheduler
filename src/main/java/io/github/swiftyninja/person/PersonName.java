@@ -42,7 +42,7 @@ public class PersonName implements Comparable<PersonName>, Cloneable, Serializab
     /**
      *
      * @param o rhs object for equality
-     * @return
+     * @return equals booloean
      */
     @Override
     public boolean equals(Object o) {
@@ -64,7 +64,7 @@ public class PersonName implements Comparable<PersonName>, Cloneable, Serializab
     /**
      *
      * @param o rhs object for comparison
-     * @return
+     * @return comparison index
      */
     @Override
     public int compareTo(PersonName o) {

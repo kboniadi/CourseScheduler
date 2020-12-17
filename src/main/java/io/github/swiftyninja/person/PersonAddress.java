@@ -46,7 +46,7 @@ public class PersonAddress implements Comparable<PersonAddress>, Cloneable, Seri
     /**
      *
      * @param o rhs object for equality
-     * @return
+     * @return equals boolean
      */
     @Override
     public boolean equals(Object o) {
@@ -68,7 +68,7 @@ public class PersonAddress implements Comparable<PersonAddress>, Cloneable, Seri
     /**
      *
      * @param o rhs object for comparison
-     * @return
+     * @return comparison index
      */
     @Override
     public int compareTo(PersonAddress o) {

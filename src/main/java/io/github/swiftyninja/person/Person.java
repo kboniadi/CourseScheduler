@@ -104,7 +104,7 @@ public abstract class Person implements Comparable<Person>, Serializable {
     /**
      *
      * @param o rhs object for equality check
-     * @return
+     * @return equals boolean
      */
     @Override
     public boolean equals(Object o) {
@@ -126,7 +126,7 @@ public abstract class Person implements Comparable<Person>, Serializable {
     /**
      *
      * @param o rhs object for comparison
-     * @return
+     * @return comparison index
      */
     @Override
     public int compareTo(Person o) {

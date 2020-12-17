@@ -7,12 +7,25 @@ import io.github.swiftyninja.person.Student;
 import io.github.swiftyninja.utilities.Configuration;
 import java.util.Random;
 
+/**
+ * SchedulerAlgo class
+ */
 public class SchedulerAlgo implements IAutoScheduler {
 
+    /**
+     * Constructor
+     * @param config_file file.cfg
+     */
     public SchedulerAlgo(String config_file) {
         Configuration.getInstance().parseFile(config_file);
     }
 
+    /**
+     *
+     * @param schedule obj
+     * @param personDir obj
+     * @throws Exception
+     */
     @Override
     public void  scheduleGenerator(CourseSchedule schedule, Directory personDir) throws Exception {
         Random rand = new Random();

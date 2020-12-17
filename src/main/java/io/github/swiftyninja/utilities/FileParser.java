@@ -4,16 +4,27 @@ import io.github.swiftyninja.person.*;
 import io.github.swiftyninja.schedule.Course;
 import io.github.swiftyninja.schedule.CourseSchedule;
 import io.github.swiftyninja.schedule.Session;
-
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+/**
+ * FileParser class
+ */
 public final class FileParser {
+    /**
+     * Constructor
+     */
     private FileParser() {}
 
+    /**
+     *
+     * @param file_name student file
+     * @param list person dir
+     * @param gen type of ID generator
+     */
     public static void parseStudentFile(String file_name, Directory list, IdGenerator gen) {
         try {
             int count = 0;
@@ -35,6 +46,12 @@ public final class FileParser {
         }
     }
 
+    /**
+     *
+     * @param file_name faculty file
+     * @param list person dir
+     * @param gen type of ID generator
+     */
     public static void parseFacultyFile(String file_name, Directory list, IdGenerator gen) {
         try {
             int count = 0;
@@ -55,6 +72,13 @@ public final class FileParser {
         }
     }
 
+    /**
+     *
+     * @param course_file_name course file
+     * @param session_file_name session file
+     * @param list courseSchedule dir
+     * @param gen type of ID generator
+     */
     public static void parseCourseFile(String course_file_name, String session_file_name, CourseSchedule list, IdGenerator gen) {
         try {
             int count = 0;
@@ -82,6 +106,12 @@ public final class FileParser {
         }
     }
 
+    /**
+     *
+     * @param file_name output file name
+     * @param data String to write
+     * @throws IOException
+     */
     public static void dataOutputTry(String file_name, String data) throws IOException {
         DataOutputStream out = null;
         try {
@@ -94,6 +124,12 @@ public final class FileParser {
         }
     }
 
+    /**
+     *
+     * @param input String to concatenate
+     * @param maxLength desired max length
+     * @return concatenated String + ".."
+     */
     public static String abbreviate(String input, int maxLength) {
         if (input.length() <= maxLength)
             return input;

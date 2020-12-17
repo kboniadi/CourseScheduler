@@ -2,10 +2,12 @@ package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Student;
-
 import java.util.ArrayList;
 import java.util.Objects;
 
+/**
+ * Session class
+ */
 public class Session implements Comparable<Session> {
     private String sessionId;
     private int minStudent;
@@ -17,6 +19,13 @@ public class Session implements Comparable<Session> {
     private ArrayList<Student> students;
 
 
+    /**
+     * Constructor
+     * @param courseID unique
+     * @param sessionId unique
+     * @param minStudent min students
+     * @param maxStudent max students
+     */
     public Session(String courseID, String sessionId, int minStudent, int maxStudent) {
         setCourseID(courseID);
         setSessionId(sessionId);
@@ -26,6 +35,9 @@ public class Session implements Comparable<Session> {
         students = new ArrayList<>();
     }
 
+    /**
+     * updates status data fields based on number of students signed up
+     */
     private void updateStatus() {
         if (getStudentCount() < getMinStudent())
             setStatus(false);
@@ -33,6 +45,10 @@ public class Session implements Comparable<Session> {
             setStatus(true);
     }
 
+    /**
+     *
+     * @return String formatted status update
+     */
     private String printStatus() {
         if (getStudentCount() < getMaxStudent()) {
             return "OPEN";
@@ -42,22 +58,94 @@ public class Session implements Comparable<Session> {
         return "";
     }
 
+    /**
+     *
+     * @return String sessino id
+     */
     public String getSessionId() { return sessionId; }
+
+    /**
+     *
+     * @return String min students allowed
+     */
     public int getMinStudent() { return minStudent; }
+
+    /**
+     *
+     * @return String max students allowed
+     */
     public int getMaxStudent() { return maxStudent; }
+
+    /**
+     *
+     * @return teacher obj
+     */
     public Faculty getTeacher() { return teacher; }
+
+    /**
+     *
+     * @return String course unique id
+     */
     public String getCourseID() { return courseID; }
+
+    /**
+     *
+     * @return boolean is course cancelled
+     */
     public boolean isCancelled() { return !status; }
+
+    /**
+     *
+     * @return student count
+     */
     public int getStudentCount() { return studentCount; }
 
+    /**
+     *
+     * @param sessionId unique id
+     */
     public void setSessionId(String sessionId) { this.sessionId = sessionId; }
+
+    /**
+     *
+     * @param minStudent min amount
+     */
     public void setMinStudent(int minStudent) { this.minStudent = minStudent; }
+
+    /**
+     *
+     * @param maxStudent max amount
+     */
     public void setMaxStudent(int maxStudent) { this.maxStudent = maxStudent; }
+
+    /**
+     *
+     * @param teacher faculty obj
+     */
     public void setTeacher(Faculty teacher) { this.teacher = teacher; }
+
+    /**
+     *
+     * @param courseID depart + code
+     */
     public void setCourseID(String courseID) { this.courseID = courseID; }
+
+    /**
+     *
+     * @param status isCancelled
+     */
     public void setStatus(boolean status) { this.status = status; }
+
+    /**
+     *
+     * @param studentCount number of students in Session
+     */
     public void setStudentCount(int studentCount) { this.studentCount = studentCount; }
 
+    /**
+     *
+     * @return String formatted with student data in Session
+     */
     public String studentsInSession() {
         StringBuilder out = new StringBuilder();
         for (Student s : students) {
@@ -66,10 +154,19 @@ public class Session implements Comparable<Session> {
         return out.toString();
     }
 
+    /**
+     *
+     * @return check for if Session instacne is full
+     */
     public boolean isSessionFull() {
         return getStudentCount() == getMaxStudent();
     }
 
+    /**
+     *
+     * @param stud obj
+     * @throws Exception
+     */
     public void addStudent(Student stud) throws Exception {
         if (!students.contains(stud)) {
             students.add(stud);
@@ -80,6 +177,11 @@ public class Session implements Comparable<Session> {
         }
     }
 
+    /**
+     *
+     * @param personID unique id
+     * @throws Exception
+     */
     public void removeStudent(String personID) throws Exception {
         Student temp = null;
         for (var v : students) {
@@ -95,6 +197,11 @@ public class Session implements Comparable<Session> {
         }
     }
 
+    /**
+     *
+     * @param personID unique id
+     * @return
+     */
     public boolean isStudentInSession(String personID) {
         for (Student s : students) {
             if (s.getId().equals(personID))
@@ -103,6 +210,10 @@ public class Session implements Comparable<Session> {
         return false;
     }
 
+    /**
+     *
+     * @return default String formatted output
+     */
     @Override
     public String toString() {
         return String.format("%n%-10s%-10s%-20s%-35s%-10s%n", getSessionId(), getCourseID(), "Open Seats: " +
@@ -110,6 +221,11 @@ public class Session implements Comparable<Session> {
                 getTeacher().getName() + " " + getTeacher().getId()), printStatus());
     }
 
+    /**
+     *
+     * @param o rhs instance
+     * @return is equal boolean
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -118,11 +234,20 @@ public class Session implements Comparable<Session> {
         return getSessionId().equals(session.getSessionId());
     }
 
+    /**
+     *
+     * @return hash code
+     */
     @Override
     public int hashCode() {
         return Objects.hash(getSessionId());
     }
 
+    /**
+     *
+     * @param o rhs instance
+     * @return comparison index
+     */
     @Override
     public int compareTo(Session o) {
         return getSessionId().compareTo(o.getSessionId());

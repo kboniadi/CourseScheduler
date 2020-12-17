@@ -5,6 +5,9 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Configuration class (Singleton)
+ */
 public final class Configuration {
     private static Configuration instance;
     private String studentMaxCourses;
@@ -13,10 +16,17 @@ public final class Configuration {
     private String facultyMaxSessionPerCourse;
     private static boolean empty;
 
+    /**
+     * Constructor
+     */
     private Configuration() {
         empty = false;
     }
 
+    /**
+     *
+     * @return instance of internal Configuration instance
+     */
     public static Configuration getInstance() {
         // double locking mechanism
         if (instance == null) {
@@ -28,6 +38,10 @@ public final class Configuration {
         return instance;
     }
 
+    /**
+     *
+     * @param file_name file.cfg
+     */
     public void parseFile(String file_name) {
 
         try {
@@ -47,6 +61,11 @@ public final class Configuration {
         empty = false;
     }
 
+    /**
+     *
+     * @param in scanner from parseFile for student info
+     * @throws FileNotFoundException
+     */
     private void parseStudent(Scanner in) throws FileNotFoundException {
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
@@ -62,6 +81,11 @@ public final class Configuration {
         }
     }
 
+    /**
+     *
+     * @param in scanner from parseFile for Faculty info
+     * @throws FileNotFoundException
+     */
     private void parseFaculty(Scanner in) throws FileNotFoundException {
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
@@ -78,6 +102,13 @@ public final class Configuration {
     }
 
 
+    /**
+     *
+     * @param in scanner from sub-parsers for internal parse
+     * @param map key, value
+     * @return true if successful
+     * @throws FileNotFoundException
+     */
     private boolean getConfigBlockLine(Scanner in, HashMap<String, String> map) throws FileNotFoundException {
         while (in.hasNext()) {
             String line = in.nextLine().trim();
@@ -93,18 +124,42 @@ public final class Configuration {
         return false;
     }
 
+    /**
+     *
+     * @return course configuration data
+     */
     public String getStudentMaxCourses() {
         return studentMaxCourses;
     }
+
+    /**
+     *
+     * @return session configuration data
+     */
     public String getStudentMaxSessionPerCourse() {
         return studentMaxSessionPerCourse;
     }
+
+    /**
+     *
+     * @return course configuration data
+     */
     public String getFacultyMaxCourses() {
         return facultyMaxCourses;
     }
+
+    /**
+     *
+     * @return session configuration  data
+     */
     public String getFacultyMaxSessionPerCourse() {
         return facultyMaxSessionPerCourse;
     }
+
+    /**
+     *
+     * @return has file.txt been parse yet
+     */
     public boolean isEmpty() {
         return empty;
     }

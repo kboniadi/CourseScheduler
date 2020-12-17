@@ -3,14 +3,24 @@ package io.github.swiftyninja.schedule;
 import io.github.swiftyninja.person.IDirectory;
 import java.util.ArrayList;
 
+/**
+ * CourseSchcedule container class
+ */
 public final class CourseSchedule implements IDirectory {
     private static CourseSchedule instance;
     private ArrayList<Course> courseList;
 
+    /**
+     * Constructor
+     */
     private CourseSchedule() {
         courseList = new ArrayList<>();
     }
 
+    /**
+     *
+     * @return instance of CourseSchedule
+     */
     public static CourseSchedule getInstance() {
         // double locking mechanism
         if (instance == null) {
@@ -22,10 +32,18 @@ public final class CourseSchedule implements IDirectory {
         return instance;
     }
 
+    /**
+     *
+     * @return list of Course's
+     */
     public ArrayList<Course> getList() {
         return courseList;
     }
 
+    /**
+     *
+     * @return number of sessions scheduled
+     */
     public int scheduledSessionDebug() {
         int count = 0;
         for (Course c : courseList) {
@@ -37,6 +55,10 @@ public final class CourseSchedule implements IDirectory {
         return count;
     }
 
+    /**
+     *
+     * @return formatted String with courses scheduled
+     */
     public String scheduledCourseSessions() {
         StringBuilder out = new StringBuilder();
         StringBuilder out2 = new StringBuilder();
@@ -57,6 +79,10 @@ public final class CourseSchedule implements IDirectory {
         return out.append(out2).toString();
     }
 
+    /**
+     *
+     * @return formatted String with courses unscheduled
+     */
     public String unScheduledCourseSessions() {
         int count = 0;
         StringBuilder out = new StringBuilder();
@@ -70,6 +96,11 @@ public final class CourseSchedule implements IDirectory {
         return out.toString();
     }
 
+    /**
+     *
+     * @param courseID unique id
+     * @return searched obj
+     */
     @Override
     public Object find(String courseID) {
         for (Course c : courseList) {
@@ -79,6 +110,11 @@ public final class CourseSchedule implements IDirectory {
         return null;
     }
 
+    /**
+     *
+     * @param obj item to add to dir
+     * @throws Exception
+     */
     @Override
     public void add(Object obj) throws Exception {
         if (!(obj instanceof Course))
@@ -90,6 +126,11 @@ public final class CourseSchedule implements IDirectory {
             throw new Exception("Course already exists in directory");
     }
 
+    /**
+     *
+     * @param courseID unique id
+     * @throws Exception
+     */
     @Override
     public void remove(String courseID) throws Exception {
         Course temp = (Course) find(courseID);
@@ -99,6 +140,10 @@ public final class CourseSchedule implements IDirectory {
             throw new Exception("id not in directory");
     }
 
+    /**
+     *
+     * @return default formatted String of schedule data
+     */
     @Override
     public String toString() {
         StringBuilder out = new StringBuilder();
