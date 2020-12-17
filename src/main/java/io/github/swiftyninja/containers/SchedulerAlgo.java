@@ -1,9 +1,6 @@
-package io.github.swiftyninja.schedule;
+package io.github.swiftyninja.containers;
 
-import io.github.swiftyninja.person.Directory;
-import io.github.swiftyninja.person.Faculty;
-import io.github.swiftyninja.person.Person;
-import io.github.swiftyninja.person.Student;
+import io.github.swiftyninja.common.*;
 import io.github.swiftyninja.utilities.Configuration;
 import java.util.Random;
 

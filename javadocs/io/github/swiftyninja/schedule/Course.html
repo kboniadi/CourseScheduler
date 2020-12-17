@@ -6,7 +6,7 @@
 <title>Course</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2020-12-17">
-<meta name="description" content="declaration: package: io.github.swiftyninja.schedule, class: Course">
+<meta name="description" content="declaration: package: io.github.swiftyninja.containers, class: Course">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../script-dir/jquery-ui.css" title="Style">
@@ -83,22 +83,22 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">io.github.swiftyninja.schedule</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">io.github.swiftyninja.containers</a></div>
 <h1 title="Class Course" class="title">Class Course</h1>
 </div>
 <div class="contentContainer">
 <div class="inheritance" title="Inheritance Tree">java.lang.Object
-<div class="inheritance">io.github.swiftyninja.schedule.Course</div>
+<div class="inheritance">io.github.swiftyninja.common.Course</div>
 </div>
 <section class="description">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code>java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.schedule">Course</a>&gt;</code></dd>
+<dd><code>java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.containers">Course</a>&gt;</code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">Course</span>
 extends java.lang.Object
-implements java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.schedule">Course</a>&gt;</pre>
+implements java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.containers">Course</a>&gt;</pre>
 <div class="block">Course class</div>
 </section>
 <section class="summary">
@@ -152,18 +152,18 @@ java.lang.String&nbsp;description)</code></th>
 <tbody>
 <tr class="altColor" id="i0">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addSessions(io.github.swiftyninja.schedule.Session)">addSessions</a></span>&#8203;(<a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a>&nbsp;sesh)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addSessions(io.github.swiftyninja.common.Session)">addSessions</a></span>&#8203;(<a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a>&nbsp;sesh)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addStudent(io.github.swiftyninja.person.Student,java.lang.String)">addStudent</a></span>&#8203;(<a href="../person/Student.html" title="class in io.github.swiftyninja.person">Student</a>&nbsp;stud,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addStudent(io.github.swiftyninja.common.Student,java.lang.String)">addStudent</a></span>&#8203;(<a href="../person/Student.html" title="class in io.github.swiftyninja.common">Student</a>&nbsp;stud,
 java.lang.String&nbsp;sessionID)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>int</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#compareTo(io.github.swiftyninja.schedule.Course)">compareTo</a></span>&#8203;(<a href="Course.html" title="class in io.github.swiftyninja.schedule">Course</a>&nbsp;o)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#compareTo(io.github.swiftyninja.common.Course)">compareTo</a></span>&#8203;(<a href="Course.html" title="class in io.github.swiftyninja.containers">Course</a>&nbsp;o)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i3">
@@ -172,7 +172,7 @@ java.lang.String&nbsp;sessionID)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i4">
-<td class="colFirst"><code><a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a></code></td>
+<td class="colFirst"><code><a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#find(java.lang.String)">find</a></span>&#8203;(java.lang.String&nbsp;sessionID)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -197,7 +197,7 @@ java.lang.String&nbsp;sessionID)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i9">
-<td class="colFirst"><code>java.util.ArrayList&lt;<a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a>&gt;</code></td>
+<td class="colFirst"><code>java.util.ArrayList&lt;<a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getSessions()">getSessions</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -347,7 +347,7 @@ java.lang.String&nbsp;description)</span></div>
 <li class="blockList">
 <section class="detail">
 <h3><a id="getSessions()">getSessions</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">java.util.ArrayList&lt;<a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a>&gt;</span>&nbsp;<span class="memberName">getSessions</span>()</div>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">java.util.ArrayList&lt;<a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a>&gt;</span>&nbsp;<span class="memberName">getSessions</span>()</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>list of sessins</dd>
@@ -427,7 +427,7 @@ java.lang.String&nbsp;description)</span></div>
 <li class="blockList">
 <section class="detail">
 <h3><a id="find(java.lang.String)">find</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType"><a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a></span>&nbsp;<span class="memberName">find</span>&#8203;(<span class="arguments">java.lang.String&nbsp;sessionID)</span></div>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType"><a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a></span>&nbsp;<span class="memberName">find</span>&#8203;(<span class="arguments">java.lang.String&nbsp;sessionID)</span></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>sessionID</code> - unique id</dd>
@@ -438,8 +438,8 @@ java.lang.String&nbsp;description)</span></div>
 </li>
 <li class="blockList">
 <section class="detail">
-<h3><a id="addSessions(io.github.swiftyninja.schedule.Session)">addSessions</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">addSessions</span>&#8203;(<span class="arguments"><a href="Session.html" title="class in io.github.swiftyninja.schedule">Session</a>&nbsp;sesh)</span>
+<h3><a id="addSessions(io.github.swiftyninja.common.Session)">addSessions</a></h3>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">addSessions</span>&#8203;(<span class="arguments"><a href="Session.html" title="class in io.github.swiftyninja.containers">Session</a>&nbsp;sesh)</span>
                  throws <span class="exceptions">java.lang.Exception</span></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -464,8 +464,8 @@ java.lang.String&nbsp;description)</span></div>
 </li>
 <li class="blockList">
 <section class="detail">
-<h3><a id="addStudent(io.github.swiftyninja.person.Student,java.lang.String)">addStudent</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">addStudent</span>&#8203;(<span class="arguments"><a href="../person/Student.html" title="class in io.github.swiftyninja.person">Student</a>&nbsp;stud,
+<h3><a id="addStudent(io.github.swiftyninja.common.Student,java.lang.String)">addStudent</a></h3>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">addStudent</span>&#8203;(<span class="arguments"><a href="../person/Student.html" title="class in io.github.swiftyninja.common">Student</a>&nbsp;stud,
 java.lang.String&nbsp;sessionID)</span>
                 throws <span class="exceptions">java.lang.Exception</span></div>
 <dl>
@@ -532,11 +532,11 @@ java.lang.String&nbsp;sessionID)</span>
 </li>
 <li class="blockList">
 <section class="detail">
-<h3><a id="compareTo(io.github.swiftyninja.schedule.Course)">compareTo</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">int</span>&nbsp;<span class="memberName">compareTo</span>&#8203;(<span class="arguments"><a href="Course.html" title="class in io.github.swiftyninja.schedule">Course</a>&nbsp;o)</span></div>
+<h3><a id="compareTo(io.github.swiftyninja.common.Course)">compareTo</a></h3>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">int</span>&nbsp;<span class="memberName">compareTo</span>&#8203;(<span class="arguments"><a href="Course.html" title="class in io.github.swiftyninja.containers">Course</a>&nbsp;o)</span></div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>compareTo</code>&nbsp;in interface&nbsp;<code>java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.schedule">Course</a>&gt;</code></dd>
+<dd><code>compareTo</code>&nbsp;in interface&nbsp;<code>java.lang.Comparable&lt;<a href="Course.html" title="class in io.github.swiftyninja.containers">Course</a>&gt;</code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>o</code> - rhs obj</dd>
 <dt><span class="returnLabel">Returns:</span></dt>

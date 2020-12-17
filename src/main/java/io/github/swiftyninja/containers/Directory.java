@@ -1,4 +1,8 @@
-package io.github.swiftyninja.person;
+package io.github.swiftyninja.containers;
+
+import io.github.swiftyninja.common.Faculty;
+import io.github.swiftyninja.common.Person;
+import io.github.swiftyninja.common.Student;
 
 import java.util.ArrayList;
 

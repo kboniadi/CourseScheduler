@@ -1,6 +1,5 @@
-package io.github.swiftyninja.person;
+package io.github.swiftyninja.common;
 
-import io.github.swiftyninja.schedule.Session;
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;

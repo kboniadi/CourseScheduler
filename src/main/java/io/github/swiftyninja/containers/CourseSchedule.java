@@ -1,6 +1,8 @@
-package io.github.swiftyninja.schedule;
+package io.github.swiftyninja.containers;
 
-import io.github.swiftyninja.person.IDirectory;
+import io.github.swiftyninja.common.Course;
+import io.github.swiftyninja.common.Session;
+
 import java.util.ArrayList;
 
 /**

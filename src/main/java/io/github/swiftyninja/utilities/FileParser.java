@@ -1,9 +1,11 @@
 package io.github.swiftyninja.utilities;
 
-import io.github.swiftyninja.person.*;
-import io.github.swiftyninja.schedule.Course;
-import io.github.swiftyninja.schedule.CourseSchedule;
-import io.github.swiftyninja.schedule.Session;
+import io.github.swiftyninja.common.*;
+import io.github.swiftyninja.common.Course;
+import io.github.swiftyninja.containers.CourseSchedule;
+import io.github.swiftyninja.common.Session;
+import io.github.swiftyninja.containers.Directory;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;

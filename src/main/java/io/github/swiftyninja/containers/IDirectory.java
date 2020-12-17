@@ -1,4 +1,4 @@
-package io.github.swiftyninja.person;
+package io.github.swiftyninja.containers;
 
 /**
  *  Directory like function template

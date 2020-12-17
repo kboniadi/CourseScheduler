@@ -1,5 +1,4 @@
-import io.github.swiftyninja.person.*;
-import io.github.swiftyninja.schedule.*;
+import io.github.swiftyninja.containers.*;
 import io.github.swiftyninja.utilities.FileParser;
 import io.github.swiftyninja.utilities.SequencialID;
 import io.github.swiftyninja.utilities.UUIDGenerator;

@@ -1,7 +1,5 @@
-package io.github.swiftyninja.schedule;
+package io.github.swiftyninja.common;
 
-import io.github.swiftyninja.person.Faculty;
-import io.github.swiftyninja.person.Student;
 import java.util.ArrayList;
 import java.util.Objects;
 

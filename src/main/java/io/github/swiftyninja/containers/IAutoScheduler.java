@@ -1,6 +1,4 @@
-package io.github.swiftyninja.schedule;
-
-import io.github.swiftyninja.person.Directory;
+package io.github.swiftyninja.containers;
 
 /**
  * Auto Scheduler interface

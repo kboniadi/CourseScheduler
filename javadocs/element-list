@@ -1,4 +1,4 @@
 unnamed package
-io.github.swiftyninja.person
-io.github.swiftyninja.schedule
+io.github.swiftyninja.common
+io.github.swiftyninja.containers
 io.github.swiftyninja.utilities

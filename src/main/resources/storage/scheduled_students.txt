@@ -7,11 +7,11 @@
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -21,11 +21,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -35,11 +35,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -49,11 +49,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -63,11 +63,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -77,11 +77,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -91,11 +91,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-7d7ef1a0  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ea82c42f  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+a11748cf  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-4202d2e3  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+287e47a4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -105,11 +105,11 @@ a10666a6  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -119,11 +119,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -133,11 +133,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -147,11 +147,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -161,11 +161,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -175,11 +175,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -189,11 +189,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-3ea7c739  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+afa4fe3b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-c028f168  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ef00c5b2  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+4728ea73  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -203,11 +203,11 @@ f055b42a  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -217,11 +217,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -231,11 +231,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -245,11 +245,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -259,11 +259,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -273,11 +273,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -287,11 +287,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-21e8dcce  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+1d4b057d  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-603f8020  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+194b14f0  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-4ae9c3bd  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+a572cd42  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -301,11 +301,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -315,11 +315,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -329,11 +329,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -343,11 +343,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -357,11 +357,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -371,11 +371,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -385,11 +385,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-41b20105  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+4d0b5a35  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-670b4c98  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+2ccffc77  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-430eae75  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+1c80824d  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -399,11 +399,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -413,11 +413,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -427,11 +427,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -441,11 +441,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -455,11 +455,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -469,11 +469,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -483,11 +483,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-59cf4467  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+a374808a  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+4902ceb3  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
-28d70629  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+020ae24e  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -497,11 +497,11 @@ eef99bdb  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -511,11 +511,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -525,11 +525,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -539,11 +539,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -553,11 +553,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -567,11 +567,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -581,11 +581,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-ab532791  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+a25ce369  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+947ed215  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-44f28fbe  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+d3f57362  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -595,11 +595,11 @@ cb2f4f00  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -609,11 +609,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -623,11 +623,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -637,11 +637,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -651,11 +651,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -665,11 +665,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -679,11 +679,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-34958ec4  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+80f617d3  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+2b96a6fa  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-3a6ddf8c  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+3d5e7219  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -693,11 +693,11 @@ f7d1b40d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -707,11 +707,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -721,11 +721,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -735,11 +735,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -749,11 +749,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -763,11 +763,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -777,11 +777,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0c1a24cb  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+8a834fc6  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-800062f1  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+14bb9615  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-05a2f170  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+a520656b  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -791,11 +791,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -805,11 +805,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -819,11 +819,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -833,11 +833,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -847,11 +847,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -861,11 +861,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -875,11 +875,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-54e4e197  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+4c759459  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-978d4290  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+f2347d92  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-90afe32f  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b27411d3  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -889,11 +889,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -903,11 +903,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -917,11 +917,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -931,11 +931,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -945,11 +945,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -959,11 +959,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -973,11 +973,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-d0781cfc  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+784b8f99  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
-f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+eb4da09b  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
-481c15a4  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+c452fbaf  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -987,11 +987,11 @@ f090f869  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1001,11 +1001,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1015,11 +1015,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1029,11 +1029,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1043,11 +1043,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1057,11 +1057,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1071,11 +1071,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b119432a  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+7bf6e424  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+d3aff87c  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-10377fd1  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+aa1d350f  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1085,11 +1085,11 @@ f7ebb43a  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1099,11 +1099,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1113,11 +1113,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1127,11 +1127,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1141,11 +1141,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1155,11 +1155,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1169,11 +1169,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-fe634bc7  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+3f164b48  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-ba8cc1cd  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+94a188c8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+8a7b75a6  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1183,11 +1183,11 @@ c989f919  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1197,11 +1197,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1211,11 +1211,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1225,11 +1225,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1239,11 +1239,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1253,11 +1253,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1267,11 +1267,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-f70c899d  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+aecd010e  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-ec84ad08  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+c164be0f  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5ec95c01  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1281,11 +1281,11 @@ befd55ee  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1295,11 +1295,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1309,11 +1309,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1323,11 +1323,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1337,11 +1337,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1351,11 +1351,11 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Name                     |Address                                           |Email                         |Phone          |Birthday       |Start Date     |GPA  |
@@ -1365,8 +1365,8 @@ TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATU
 
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-71511035  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+595032a7  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-8450b16b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f6fd760c  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-926270e5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+5273ddca  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      

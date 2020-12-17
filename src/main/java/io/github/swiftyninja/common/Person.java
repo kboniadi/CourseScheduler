@@ -1,4 +1,4 @@
-package io.github.swiftyninja.person;
+package io.github.swiftyninja.common;
 
 import io.github.swiftyninja.utilities.FileParser;
 import java.io.Serializable;
