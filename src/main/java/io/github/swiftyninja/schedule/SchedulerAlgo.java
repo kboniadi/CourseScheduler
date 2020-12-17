@@ -14,7 +14,7 @@ public class SchedulerAlgo implements IAutoScheduler {
     }
 
     @Override
-    public void scheduleGenerator(CourseSchedule schedule, Directory personDir) throws Exception {
+    public void  scheduleGenerator(CourseSchedule schedule, Directory personDir) throws Exception {
         Random rand = new Random();
 
         for (Person p : personDir.getList()) {

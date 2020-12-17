@@ -15,6 +15,17 @@ public class CourseSchedule implements IDirectory {
         return courseList;
     }
 
+    public int scheduledSessionDebug() {
+        int count = 0;
+        for (Course c : courseList) {
+            for (Session s : c.getSessions()) {
+                if (!s.isCancelled())
+                    count++;
+            }
+        }
+        return count;
+    }
+
     public String scheduledCourseSessions() {
         StringBuilder out = new StringBuilder();
         StringBuilder out2 = new StringBuilder();
@@ -30,16 +41,20 @@ public class CourseSchedule implements IDirectory {
                 }
             }
         }
-
+        System.out.printf("%-32s%d%n", "Total sessions scheduled: ", scheduledSessionDebug());
         return out.append(out2).toString();
     }
 
     public String unScheduledCourseSessions() {
+        int count = 0;
         StringBuilder out = new StringBuilder();
         for (Course c : courseList) {
-            if (c.isCourseCancelled())
+            if (c.isCourseCancelled()) {
                 out.append(c);
+                count++;
+            }
         }
+        System.out.printf("%-32s%d%n", "Total Courses unscheduled: ", count);
         return out.toString();
     }
 

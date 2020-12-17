@@ -33,10 +33,6 @@ public class CourseScheduler {
         FileParser.dataOutputTry(FACULTY_FILE, dir.facultyInfo());
         FileParser.dataOutputTry(SCHEDULED_STUDENTS_FILE, dir.scheduledStudents());
         FileParser.dataOutputTry(UNSCHEDULED_STUDENTS_FILE, dir.unScheduledStudents());
-//        System.out.println(skd.scheduledCourseSessions());
-//        System.out.println(skd.unScheduledCourseSessions());
-//        System.out.println(dir.facultyInfo());
-//        System.out.println(dir.scheduledStudents());
         System.out.println("completed");
     }
 }

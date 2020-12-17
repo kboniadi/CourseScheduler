@@ -17,6 +17,7 @@ public final class FileParser {
 
     public static void parseStudentFile(String file_name, Directory list, IdGenerator gen) {
         try {
+            int count = 0;
             File file = new File(file_name);
             Scanner in = new Scanner(file);
 
@@ -27,7 +28,9 @@ public final class FileParser {
                         new PersonAddress(data[3], data[4], data[5], Integer.parseInt(data[6])), data[7],
                         data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10],
                         LocalDate.parse(data[11], DateTimeFormatter.ofPattern("MM/dd/yyyy"))));
+                count++;
             }
+            System.out.printf("%-32s%d%n", "Total students: ", count);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -35,6 +38,7 @@ public final class FileParser {
 
     public static void parseFacultyFile(String file_name, Directory list, IdGenerator gen) {
         try {
+            int count = 0;
             File file = new File(file_name);
             Scanner in = new Scanner(file);
 
@@ -44,7 +48,9 @@ public final class FileParser {
                 list.add(new Faculty(gen.generateId(), new PersonName(data[0], data[1], data[2]),
                         new PersonAddress(data[3], data[4], data[5], Integer.parseInt(data[6])), data[7],
                         data[8], LocalDate.parse(data[9], DateTimeFormatter.ofPattern("MM/dd/yyyy")), data[10].equalsIgnoreCase("yes")));
+                count++;
             }
+            System.out.printf("%-32s%d%n", "Total Faculty: ", count);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -52,6 +58,7 @@ public final class FileParser {
 
     public static void parseCourseFile(String course_file_name, String session_file_name, CourseSchedule list, IdGenerator gen) {
         try {
+            int count = 0;
             File course_file = new File(course_file_name);
             File session_file = new File(session_file_name);
             Scanner inCourse = new Scanner(course_file);
@@ -61,7 +68,9 @@ public final class FileParser {
             while (inCourse.hasNext()) {
                 String[] data = inCourse.nextLine().split("[|]");
                 list.add(new Course(data[0], data[1], data[2]));
+                count++;
             }
+            System.out.printf("%-32s%d%n", "Total Course: ", count);
 
             inSession.nextLine();
             while (inSession.hasNext()) {

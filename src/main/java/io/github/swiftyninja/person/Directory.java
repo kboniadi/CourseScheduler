@@ -27,15 +27,17 @@ public class Directory implements IDirectory {
     }
 
     public String unScheduledStudents() {
+        int count = 0;
         StringBuilder out = new StringBuilder();
         for (Person p : directory) {
             if (p instanceof Student && !((Student) p).isScheduled()) {
                 out.append("\n").append(p);
                 out.append("\nNO CLASSES THIS SEMESTER!!\n");
+                count++;
             }
         }
+        System.out.printf("%-32s%d%n", "Total students with no classes: ",  count);
         return out.toString();
-
     }
 
     public String facultyInfo() {

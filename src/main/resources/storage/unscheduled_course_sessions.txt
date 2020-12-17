@@ -2,12 +2,12 @@
 MATH 3B - Analytic Geometry and Calculus II
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-e289235d  MATH3B    Open Seats: 7       Raphael Patience Lynch 113         OPEN      
+f8dde1af  MATH3B    Open Seats: 7       Raphael Patience Lynch 113         OPEN      
 
-4806b2f4  MATH3B    Open Seats: 7       Raphael Patience Lynch 113         OPEN      
+dd6f1048  MATH3B    Open Seats: 7       Raphael Patience Lynch 113         OPEN      
 
-3f980ef2  MATH3B    Open Seats: 7       Ima Iris Johns 114                 OPEN      
+d847a2d7  MATH3B    Open Seats: 7       Ima Iris Johns 114                 OPEN      
 
-86b9e71e  MATH3B    Open Seats: 7       Ima Iris Johns 114                 OPEN      
+c1f0bd4a  MATH3B    Open Seats: 7       Ima Iris Johns 114                 OPEN      
 
-0a9d408f  MATH3B    Open Seats: 7       Nathan Keith Robbins 115           OPEN      
+e2a4f241  MATH3B    Open Seats: 7       Nathan Keith Robbins 115           OPEN      

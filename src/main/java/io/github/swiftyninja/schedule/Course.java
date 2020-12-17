@@ -32,7 +32,7 @@ public class Course {
     public void setCode(String code) { this.code = code; }
     public void setDescription(String description) { this.description = description; }
     public void setCourseID(String courseID) { this.courseID = courseID; }
-
+    
     public boolean isCourseCancelled() {
         for (Session s : sessions) {
             if (!s.isCancelled())
