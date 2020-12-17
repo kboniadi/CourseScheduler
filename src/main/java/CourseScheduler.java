@@ -18,21 +18,19 @@ public class CourseScheduler {
         final String SCHEDULED_STUDENTS_FILE            = "src/main/resources/storage/scheduled_students.txt";
         final String UNSCHEDULED_STUDENTS_FILE          = "src/main/resources/storage/unscheduled_students.txt";
 
-        Directory dir = new Directory();
-        CourseSchedule skd = new CourseSchedule();
-
-        FileParser.parseStudentFile(STUDENT_INPUT_FILE, dir, new SequencialID());
-        FileParser.parseFacultyFile(FACULTY_INPUT_FILE, dir, new SequencialID());
-        FileParser.parseCourseFile(COURSE_INFO_FILE, SESSION_INFO_FILE, skd, new UUIDGenerator());
+        FileParser.parseStudentFile(STUDENT_INPUT_FILE, Directory.getInstance(), new SequencialID());
+        FileParser.parseFacultyFile(FACULTY_INPUT_FILE, Directory.getInstance(), new SequencialID());
+        FileParser.parseCourseFile(COURSE_INFO_FILE, SESSION_INFO_FILE, CourseSchedule.getInstance(), new UUIDGenerator());
 
         SchedulerAlgo test = new SchedulerAlgo(CONFIG_FILE);
-        test.scheduleGenerator(skd, dir);
+        test.scheduleGenerator(CourseSchedule.getInstance(), Directory.getInstance());
 
-        FileParser.dataOutputTry(SCHEDULED_COURSE_SESSIONS_FILE, skd.scheduledCourseSessions());
-        FileParser.dataOutputTry(UNSCHEDULED_COURSE_SESSIONS_FILE, skd.unScheduledCourseSessions());
-        FileParser.dataOutputTry(FACULTY_FILE, dir.facultyInfo());
-        FileParser.dataOutputTry(SCHEDULED_STUDENTS_FILE, dir.scheduledStudents());
-        FileParser.dataOutputTry(UNSCHEDULED_STUDENTS_FILE, dir.unScheduledStudents());
+        FileParser.dataOutputTry(SCHEDULED_COURSE_SESSIONS_FILE, CourseSchedule.getInstance().scheduledCourseSessions());
+        FileParser.dataOutputTry(UNSCHEDULED_COURSE_SESSIONS_FILE, CourseSchedule.getInstance().unScheduledCourseSessions());
+        FileParser.dataOutputTry(FACULTY_FILE, Directory.getInstance().facultyInfo());
+        FileParser.dataOutputTry(SCHEDULED_STUDENTS_FILE, Directory.getInstance().scheduledStudents());
+        FileParser.dataOutputTry(UNSCHEDULED_STUDENTS_FILE, Directory.getInstance().unScheduledStudents());
+
         System.out.println("completed");
     }
 }

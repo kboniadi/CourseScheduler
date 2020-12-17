@@ -11,7 +11,6 @@ public final class Configuration {
     private String studentMaxSessionPerCourse;
     private String facultyMaxCourses;
     private String facultyMaxSessionPerCourse;
-
     private static boolean empty;
 
     private Configuration() {
@@ -49,8 +48,6 @@ public final class Configuration {
     }
 
     private void parseStudent(Scanner in) throws FileNotFoundException {
-//        Scanner in = new Scanner(file);
-
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
             if (!getConfigBlockLine(in, map))
@@ -66,8 +63,6 @@ public final class Configuration {
     }
 
     private void parseFaculty(Scanner in) throws FileNotFoundException {
-//        Scanner in = new Scanner(file);
-
         while (in.hasNext()) {
             HashMap<String, String> map = new HashMap<>();
             if (!getConfigBlockLine(in, map))
@@ -84,8 +79,6 @@ public final class Configuration {
 
 
     private boolean getConfigBlockLine(Scanner in, HashMap<String, String> map) throws FileNotFoundException {
-//        Scanner in = new Scanner(file);
-
         while (in.hasNext()) {
             String line = in.nextLine().trim();
 
@@ -103,19 +96,15 @@ public final class Configuration {
     public String getStudentMaxCourses() {
         return studentMaxCourses;
     }
-
     public String getStudentMaxSessionPerCourse() {
         return studentMaxSessionPerCourse;
     }
-
     public String getFacultyMaxCourses() {
         return facultyMaxCourses;
     }
-
     public String getFacultyMaxSessionPerCourse() {
         return facultyMaxSessionPerCourse;
     }
-
     public boolean isEmpty() {
         return empty;
     }

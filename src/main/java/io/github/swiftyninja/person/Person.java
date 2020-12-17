@@ -2,9 +2,10 @@ package io.github.swiftyninja.person;
 
 import io.github.swiftyninja.utilities.FileParser;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public abstract class Person implements Comparable<Person> {
+public abstract class Person implements Comparable<Person>, Serializable {
     private PersonName name;
     private PersonAddress address;
     private String email;

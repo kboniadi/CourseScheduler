@@ -1,14 +1,25 @@
 package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.IDirectory;
-
 import java.util.ArrayList;
 
-public class CourseSchedule implements IDirectory {
+public final class CourseSchedule implements IDirectory {
+    private static CourseSchedule instance;
     private ArrayList<Course> courseList;
 
-    public CourseSchedule() {
+    private CourseSchedule() {
         courseList = new ArrayList<>();
+    }
+
+    public static CourseSchedule getInstance() {
+        // double locking mechanism
+        if (instance == null) {
+            synchronized (CourseSchedule.class) {
+                if (instance == null)
+                    instance = new CourseSchedule();
+            }
+        }
+        return instance;
     }
 
     public ArrayList<Course> getList() {
@@ -35,7 +46,8 @@ public class CourseSchedule implements IDirectory {
             if (!c.isCourseCancelled()) {
                 out.append(c);
                 for (Session s : c.getSessions()) {
-                    out2.append(String.format("%nSession id: %s | Course: %s | Student count: %s%n", s.getSessionId(), s.getCourseID(), s.getStudentCount()));
+                    out2.append(String.format("%nSession id: %s | Course: %s | Student count: %s%n",
+                            s.getSessionId(), s.getCourseID(), s.getStudentCount()));
                     out2.append("-".repeat(58));
                     out2.append("\n").append(s.studentsInSession());
                 }

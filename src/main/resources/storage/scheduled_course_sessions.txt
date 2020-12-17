@@ -2,123 +2,123 @@
 CS 1A - Introductino to Computer Science I
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-9e3964e8  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+f1623e01  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-2a384e32  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+30fad31b  CS1A      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-5e925077  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+c37a5802  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-aa82e3a7  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+cc03d784  CS1A      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-c78baa94  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+9580d928  CS1A      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
 CS 1B - Introductino to Computer Science II
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-0f2b256f  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+ec14ede0  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-e834adc3  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
+08477efc  CS1B      Open Seats: 0       Candace Cailin Brennan 101         FULL      
 
-9fdeccb1  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+7a32c9af  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-fcbe22be  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
+d6259a87  CS1B      Open Seats: 0       Lyle Jermaine Hogan 102            FULL      
 
-c5458db1  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
+8335c77b  CS1B      Open Seats: 0       Sawyer Liberty Mckinney 103        FULL      
 
 CS 1C - Introductino to Computer Science III
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-dadd22e4  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+46d35747  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-a3af897e  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+03c9eb88  CS1C      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-b4591ebf  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+c5d809d1  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-46469d95  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+3ce0105c  CS1C      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-6af59772  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+3e6e8b9a  CS1C      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 CS 1D - Data Structures
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-b9ec9679  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+3b3cc2cc  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-01166317  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
+713dcb18  CS1D      Open Seats: 0       Merritt Josiah Noble 104           FULL      
 
-864fe46d  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+af391a3f  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-555220a9  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
+2aebe033  CS1D      Open Seats: 0       Beatrice Evan Mccray 105           FULL      
 
-90ff885e  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
+5eaeca9c  CS1D      Open Seats: 0       Vladimir Xander Mack 106           FULL      
 
 CS 3A - Computer Organization and Machine Language
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-afccea3d  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+37d5bfb6  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-f66aecfb  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+e390a8c8  CS3A      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-72b793b5  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+2d43f584  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-3e8ba8c3  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+8fe46465  CS3A      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-3c38d35c  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
+c0a5e9e1  CS3A      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 CS 3B - Computer Organization and Assembly Language
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-33091688  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+e15b88be  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-22322c60  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
+7ddc4a72  CS3B      Open Seats: 0       Lucy Richard Deleon 107            FULL      
 
-bec1e4d2  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+511d3cd0  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-17994468  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
+b9d9b3da  CS3B      Open Seats: 0       Garrison Caldwell Luna 108         FULL      
 
-6fafc15d  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
+bbdcf163  CS3B      Open Seats: 0       Summer Ria Pate 109                FULL      
 
 CS 4A - Introductino to Java for Computer Science
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-90d65088  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+fa9ada31  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-1ad3a18b  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+19bdea0c  CS4A      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-3d9d13c2  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+006130f6  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-d54e56a1  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
+9d2be3b6  CS4A      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-3908f38d  CS4A      Open Seats: 5       Serena Ariel Duke 112              OPEN      
+b9a24cfb  CS4A      Open Seats: 5       Serena Ariel Duke 112              OPEN      
 
 CS 4B - Advance Topics in Java for Computer Science
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-121506d9  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+8fc0edb8  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-82146092  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
+68343e0b  CS4B      Open Seats: 0       Sylvia Claire Bray 110             FULL      
 
-22318de6  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+6019b832  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-1a5eb2d7  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
+f7f33f9b  CS4B      Open Seats: 0       Nina Alec Witt 111                 FULL      
 
-f096c109  CS4B      Open Seats: 5       Serena Ariel Duke 112              OPEN      
+19d9d47d  CS4B      Open Seats: 5       Serena Ariel Duke 112              OPEN      
 
 MATH 3A - Analytic Geometry and Calculus I
 TICKET    COURSE    SEAT COUNT          INSTRUCTOR                         STATUS    
 -------------------------------------------------------------------------------------
-81952e3a  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+5d944671  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
-25af8fca  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
+6798089d  MATH3A    Open Seats: 0       Raphael Patience Lynch 113         FULL      
 
-ffe41ae0  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+501652f5  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
-784a03a6  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
+d7a78779  MATH3A    Open Seats: 0       Ima Iris Johns 114                 FULL      
 
-185fef1c  MATH3A    Open Seats: 5       Nathan Keith Robbins 115           OPEN      
+362d4cd4  MATH3A    Open Seats: 5       Nathan Keith Robbins 115           OPEN      
 
 Student list for each Session:
 
-Session id: 9e3964e8 | Course: CS1A | Student count: 7
+Session id: f1623e01 | Course: CS1A | Student count: 7
 ----------------------------------------------------------
 Philip Gray Bauer 1
 Cailin Joelle Cohen 2
@@ -128,7 +128,7 @@ Larissa Philip Dorsey 5
 Phelan Willa Aguilar 6
 Drake Maxwell Brennan 7
 
-Session id: 2a384e32 | Course: CS1A | Student count: 7
+Session id: 30fad31b | Course: CS1A | Student count: 7
 ----------------------------------------------------------
 Kirk Ignacia Dejesus 8
 Serena Christopher Rivers 9
@@ -138,7 +138,7 @@ Erica Amal Crane 12
 Rose Claudia Moon 13
 Flynn Victoria Patel 14
 
-Session id: 5e925077 | Course: CS1A | Student count: 7
+Session id: c37a5802 | Course: CS1A | Student count: 7
 ----------------------------------------------------------
 Kirestin Noelle Hewitt 15
 Mercedes Berk Ingram 16
@@ -148,7 +148,7 @@ Cody Ciara Orr 19
 Kerry Cade Bell 20
 Carissa Uriah Sheppard 21
 
-Session id: aa82e3a7 | Course: CS1A | Student count: 7
+Session id: cc03d784 | Course: CS1A | Student count: 7
 ----------------------------------------------------------
 Kelsie Bernard Curtis 22
 Lionel Tucker Vega 23
@@ -158,7 +158,7 @@ Maisie Bradley Boyd 26
 Keefe Lamar Valenzuela 27
 Ori Rajah Hickman 28
 
-Session id: c78baa94 | Course: CS1A | Student count: 7
+Session id: 9580d928 | Course: CS1A | Student count: 7
 ----------------------------------------------------------
 Hasad Hakeem Contreras 29
 Mari Nichole Obrien 30
@@ -168,7 +168,7 @@ Sopoline Amanda Cotton 33
 Herman Stephanie Potter 34
 Aquila Aubrey Schneider 35
 
-Session id: 0f2b256f | Course: CS1B | Student count: 7
+Session id: ec14ede0 | Course: CS1B | Student count: 7
 ----------------------------------------------------------
 Philip Gray Bauer 1
 Cailin Joelle Cohen 2
@@ -178,7 +178,7 @@ Larissa Philip Dorsey 5
 Phelan Willa Aguilar 6
 Drake Maxwell Brennan 7
 
-Session id: e834adc3 | Course: CS1B | Student count: 7
+Session id: 08477efc | Course: CS1B | Student count: 7
 ----------------------------------------------------------
 Kirk Ignacia Dejesus 8
 Serena Christopher Rivers 9
@@ -188,7 +188,7 @@ Erica Amal Crane 12
 Rose Claudia Moon 13
 Flynn Victoria Patel 14
 
-Session id: 9fdeccb1 | Course: CS1B | Student count: 7
+Session id: 7a32c9af | Course: CS1B | Student count: 7
 ----------------------------------------------------------
 Kirestin Noelle Hewitt 15
 Mercedes Berk Ingram 16
@@ -198,7 +198,7 @@ Cody Ciara Orr 19
 Kerry Cade Bell 20
 Carissa Uriah Sheppard 21
 
-Session id: fcbe22be | Course: CS1B | Student count: 7
+Session id: d6259a87 | Course: CS1B | Student count: 7
 ----------------------------------------------------------
 Kelsie Bernard Curtis 22
 Lionel Tucker Vega 23
@@ -208,7 +208,7 @@ Maisie Bradley Boyd 26
 Keefe Lamar Valenzuela 27
 Ori Rajah Hickman 28
 
-Session id: c5458db1 | Course: CS1B | Student count: 7
+Session id: 8335c77b | Course: CS1B | Student count: 7
 ----------------------------------------------------------
 Hasad Hakeem Contreras 29
 Mari Nichole Obrien 30
@@ -218,7 +218,7 @@ Sopoline Amanda Cotton 33
 Herman Stephanie Potter 34
 Aquila Aubrey Schneider 35
 
-Session id: dadd22e4 | Course: CS1C | Student count: 7
+Session id: 46d35747 | Course: CS1C | Student count: 7
 ----------------------------------------------------------
 Philip Gray Bauer 1
 Cailin Joelle Cohen 2
@@ -228,7 +228,7 @@ Larissa Philip Dorsey 5
 Phelan Willa Aguilar 6
 Drake Maxwell Brennan 7
 
-Session id: a3af897e | Course: CS1C | Student count: 7
+Session id: 03c9eb88 | Course: CS1C | Student count: 7
 ----------------------------------------------------------
 Kirk Ignacia Dejesus 8
 Serena Christopher Rivers 9
@@ -238,7 +238,7 @@ Erica Amal Crane 12
 Rose Claudia Moon 13
 Flynn Victoria Patel 14
 
-Session id: b4591ebf | Course: CS1C | Student count: 7
+Session id: c5d809d1 | Course: CS1C | Student count: 7
 ----------------------------------------------------------
 Kirestin Noelle Hewitt 15
 Mercedes Berk Ingram 16
@@ -248,7 +248,7 @@ Cody Ciara Orr 19
 Kerry Cade Bell 20
 Carissa Uriah Sheppard 21
 
-Session id: 46469d95 | Course: CS1C | Student count: 7
+Session id: 3ce0105c | Course: CS1C | Student count: 7
 ----------------------------------------------------------
 Kelsie Bernard Curtis 22
 Lionel Tucker Vega 23
@@ -258,7 +258,7 @@ Maisie Bradley Boyd 26
 Keefe Lamar Valenzuela 27
 Ori Rajah Hickman 28
 
-Session id: 6af59772 | Course: CS1C | Student count: 7
+Session id: 3e6e8b9a | Course: CS1C | Student count: 7
 ----------------------------------------------------------
 Hasad Hakeem Contreras 29
 Mari Nichole Obrien 30
@@ -268,7 +268,7 @@ Sopoline Amanda Cotton 33
 Herman Stephanie Potter 34
 Aquila Aubrey Schneider 35
 
-Session id: b9ec9679 | Course: CS1D | Student count: 7
+Session id: 3b3cc2cc | Course: CS1D | Student count: 7
 ----------------------------------------------------------
 Boris Xantha Bonner 36
 Amity Martin Payne 37
@@ -278,7 +278,7 @@ Amir Raphael Barr 40
 Seth Xanthus Garza 41
 Martina Alfreda Oneal 42
 
-Session id: 01166317 | Course: CS1D | Student count: 7
+Session id: 713dcb18 | Course: CS1D | Student count: 7
 ----------------------------------------------------------
 Libby Colby Berry 43
 Quentin Shoshana Berg 44
@@ -288,7 +288,7 @@ Linus Ivory Turner 47
 Barclay Cameran Griffith 48
 India Ethan Mendez 49
 
-Session id: 864fe46d | Course: CS1D | Student count: 7
+Session id: af391a3f | Course: CS1D | Student count: 7
 ----------------------------------------------------------
 Myra Lacota Horn 50
 Ifeoma Macey Lindsey 51
@@ -298,7 +298,7 @@ Jeanette Blaze Brock 54
 Melodie Mark Adkins 55
 Isaiah Buffy Petersen 56
 
-Session id: 555220a9 | Course: CS1D | Student count: 7
+Session id: 2aebe033 | Course: CS1D | Student count: 7
 ----------------------------------------------------------
 Jerome Martin Booth 57
 Judith Basia Coleman 58
@@ -308,7 +308,7 @@ Alfonso Gavin Berger 61
 Cara Keane Nixon 62
 Demetrius Ina Espinoza 63
 
-Session id: 90ff885e | Course: CS1D | Student count: 7
+Session id: 5eaeca9c | Course: CS1D | Student count: 7
 ----------------------------------------------------------
 Kennan Dora Mckenzie 64
 Luke Cole Hebert 65
@@ -318,7 +318,7 @@ Britanni Asher Warner 68
 Daphne Carla Moon 69
 Yuri Xander Watkins 70
 
-Session id: afccea3d | Course: CS3A | Student count: 7
+Session id: 37d5bfb6 | Course: CS3A | Student count: 7
 ----------------------------------------------------------
 Boris Xantha Bonner 36
 Amity Martin Payne 37
@@ -328,7 +328,7 @@ Amir Raphael Barr 40
 Seth Xanthus Garza 41
 Martina Alfreda Oneal 42
 
-Session id: f66aecfb | Course: CS3A | Student count: 7
+Session id: e390a8c8 | Course: CS3A | Student count: 7
 ----------------------------------------------------------
 Libby Colby Berry 43
 Quentin Shoshana Berg 44
@@ -338,7 +338,7 @@ Linus Ivory Turner 47
 Barclay Cameran Griffith 48
 India Ethan Mendez 49
 
-Session id: 72b793b5 | Course: CS3A | Student count: 7
+Session id: 2d43f584 | Course: CS3A | Student count: 7
 ----------------------------------------------------------
 Myra Lacota Horn 50
 Ifeoma Macey Lindsey 51
@@ -348,7 +348,7 @@ Jeanette Blaze Brock 54
 Melodie Mark Adkins 55
 Isaiah Buffy Petersen 56
 
-Session id: 3e8ba8c3 | Course: CS3A | Student count: 7
+Session id: 8fe46465 | Course: CS3A | Student count: 7
 ----------------------------------------------------------
 Jerome Martin Booth 57
 Judith Basia Coleman 58
@@ -358,7 +358,7 @@ Alfonso Gavin Berger 61
 Cara Keane Nixon 62
 Demetrius Ina Espinoza 63
 
-Session id: 3c38d35c | Course: CS3A | Student count: 7
+Session id: c0a5e9e1 | Course: CS3A | Student count: 7
 ----------------------------------------------------------
 Kennan Dora Mckenzie 64
 Luke Cole Hebert 65
@@ -368,7 +368,7 @@ Britanni Asher Warner 68
 Daphne Carla Moon 69
 Yuri Xander Watkins 70
 
-Session id: 33091688 | Course: CS3B | Student count: 7
+Session id: e15b88be | Course: CS3B | Student count: 7
 ----------------------------------------------------------
 Boris Xantha Bonner 36
 Amity Martin Payne 37
@@ -378,7 +378,7 @@ Amir Raphael Barr 40
 Seth Xanthus Garza 41
 Martina Alfreda Oneal 42
 
-Session id: 22322c60 | Course: CS3B | Student count: 7
+Session id: 7ddc4a72 | Course: CS3B | Student count: 7
 ----------------------------------------------------------
 Libby Colby Berry 43
 Quentin Shoshana Berg 44
@@ -388,7 +388,7 @@ Linus Ivory Turner 47
 Barclay Cameran Griffith 48
 India Ethan Mendez 49
 
-Session id: bec1e4d2 | Course: CS3B | Student count: 7
+Session id: 511d3cd0 | Course: CS3B | Student count: 7
 ----------------------------------------------------------
 Myra Lacota Horn 50
 Ifeoma Macey Lindsey 51
@@ -398,7 +398,7 @@ Jeanette Blaze Brock 54
 Melodie Mark Adkins 55
 Isaiah Buffy Petersen 56
 
-Session id: 17994468 | Course: CS3B | Student count: 7
+Session id: b9d9b3da | Course: CS3B | Student count: 7
 ----------------------------------------------------------
 Jerome Martin Booth 57
 Judith Basia Coleman 58
@@ -408,7 +408,7 @@ Alfonso Gavin Berger 61
 Cara Keane Nixon 62
 Demetrius Ina Espinoza 63
 
-Session id: 6fafc15d | Course: CS3B | Student count: 7
+Session id: bbdcf163 | Course: CS3B | Student count: 7
 ----------------------------------------------------------
 Kennan Dora Mckenzie 64
 Luke Cole Hebert 65
@@ -418,7 +418,7 @@ Britanni Asher Warner 68
 Daphne Carla Moon 69
 Yuri Xander Watkins 70
 
-Session id: 90d65088 | Course: CS4A | Student count: 7
+Session id: fa9ada31 | Course: CS4A | Student count: 7
 ----------------------------------------------------------
 Brady Amy Whitley 71
 Dakota Barry Kinney 72
@@ -428,7 +428,7 @@ Kadeem Brody Castro 75
 Eagan Evangeline Cole 76
 Melanie Astra Frazier 77
 
-Session id: 1ad3a18b | Course: CS4A | Student count: 7
+Session id: 19bdea0c | Course: CS4A | Student count: 7
 ----------------------------------------------------------
 Yael Brian Greene 78
 Kaden Cain Wagner 79
@@ -438,7 +438,7 @@ Jorden Tyrone Pickett 82
 Axel Shannon Bradley 83
 Kiara Violet Knowles 84
 
-Session id: 3d9d13c2 | Course: CS4A | Student count: 7
+Session id: 006130f6 | Course: CS4A | Student count: 7
 ----------------------------------------------------------
 Ian Willow Parrish 85
 Aquila Lisandra Donovan 86
@@ -448,7 +448,7 @@ Marshall Felix Ingram 89
 Teagan Marcia Potter 90
 Ruby Hedwig Tate 91
 
-Session id: d54e56a1 | Course: CS4A | Student count: 7
+Session id: 9d2be3b6 | Course: CS4A | Student count: 7
 ----------------------------------------------------------
 Maia Marcia Delgado 92
 Nero Plato Wiley 93
@@ -458,12 +458,12 @@ Whitney Caleb Baird 96
 Raja Dominique Alford 97
 Hilary Burke Terry 98
 
-Session id: 3908f38d | Course: CS4A | Student count: 2
+Session id: b9a24cfb | Course: CS4A | Student count: 2
 ----------------------------------------------------------
 Shafira Blossom Dale 99
 May Stacy Morin 100
 
-Session id: 121506d9 | Course: CS4B | Student count: 7
+Session id: 8fc0edb8 | Course: CS4B | Student count: 7
 ----------------------------------------------------------
 Brady Amy Whitley 71
 Dakota Barry Kinney 72
@@ -473,7 +473,7 @@ Kadeem Brody Castro 75
 Eagan Evangeline Cole 76
 Melanie Astra Frazier 77
 
-Session id: 82146092 | Course: CS4B | Student count: 7
+Session id: 68343e0b | Course: CS4B | Student count: 7
 ----------------------------------------------------------
 Yael Brian Greene 78
 Kaden Cain Wagner 79
@@ -483,7 +483,7 @@ Jorden Tyrone Pickett 82
 Axel Shannon Bradley 83
 Kiara Violet Knowles 84
 
-Session id: 22318de6 | Course: CS4B | Student count: 7
+Session id: 6019b832 | Course: CS4B | Student count: 7
 ----------------------------------------------------------
 Ian Willow Parrish 85
 Aquila Lisandra Donovan 86
@@ -493,7 +493,7 @@ Marshall Felix Ingram 89
 Teagan Marcia Potter 90
 Ruby Hedwig Tate 91
 
-Session id: 1a5eb2d7 | Course: CS4B | Student count: 7
+Session id: f7f33f9b | Course: CS4B | Student count: 7
 ----------------------------------------------------------
 Maia Marcia Delgado 92
 Nero Plato Wiley 93
@@ -503,12 +503,12 @@ Whitney Caleb Baird 96
 Raja Dominique Alford 97
 Hilary Burke Terry 98
 
-Session id: f096c109 | Course: CS4B | Student count: 2
+Session id: 19d9d47d | Course: CS4B | Student count: 2
 ----------------------------------------------------------
 Shafira Blossom Dale 99
 May Stacy Morin 100
 
-Session id: 81952e3a | Course: MATH3A | Student count: 7
+Session id: 5d944671 | Course: MATH3A | Student count: 7
 ----------------------------------------------------------
 Brady Amy Whitley 71
 Dakota Barry Kinney 72
@@ -518,7 +518,7 @@ Kadeem Brody Castro 75
 Eagan Evangeline Cole 76
 Melanie Astra Frazier 77
 
-Session id: 25af8fca | Course: MATH3A | Student count: 7
+Session id: 6798089d | Course: MATH3A | Student count: 7
 ----------------------------------------------------------
 Yael Brian Greene 78
 Kaden Cain Wagner 79
@@ -528,7 +528,7 @@ Jorden Tyrone Pickett 82
 Axel Shannon Bradley 83
 Kiara Violet Knowles 84
 
-Session id: ffe41ae0 | Course: MATH3A | Student count: 7
+Session id: 501652f5 | Course: MATH3A | Student count: 7
 ----------------------------------------------------------
 Ian Willow Parrish 85
 Aquila Lisandra Donovan 86
@@ -538,7 +538,7 @@ Marshall Felix Ingram 89
 Teagan Marcia Potter 90
 Ruby Hedwig Tate 91
 
-Session id: 784a03a6 | Course: MATH3A | Student count: 7
+Session id: d7a78779 | Course: MATH3A | Student count: 7
 ----------------------------------------------------------
 Maia Marcia Delgado 92
 Nero Plato Wiley 93
@@ -548,7 +548,7 @@ Whitney Caleb Baird 96
 Raja Dominique Alford 97
 Hilary Burke Terry 98
 
-Session id: 185fef1c | Course: MATH3A | Student count: 2
+Session id: 362d4cd4 | Course: MATH3A | Student count: 2
 ----------------------------------------------------------
 Shafira Blossom Dale 99
 May Stacy Morin 100

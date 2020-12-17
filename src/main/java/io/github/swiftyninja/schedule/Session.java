@@ -2,9 +2,12 @@ package io.github.swiftyninja.schedule;
 
 import io.github.swiftyninja.person.Faculty;
 import io.github.swiftyninja.person.Student;
-import java.util.ArrayList;
 
-public class Session {
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Objects;
+
+public class Session implements Comparable<Session> {
     private String sessionId;
     private int minStudent;
     private int maxStudent;
@@ -22,6 +25,22 @@ public class Session {
         setMaxStudent(maxStudent);
         setStatus(false);
         students = new ArrayList<>();
+    }
+
+    private void updateStatus() {
+        if (getStudentCount() < getMinStudent())
+            setStatus(false);
+        else if (getStudentCount() >= getMinStudent() && getStudentCount() <= getMaxStudent())
+            setStatus(true);
+    }
+
+    private String printStatus() {
+        if (getStudentCount() < getMaxStudent()) {
+            return "OPEN";
+        } else if (getMaxStudent() == getStudentCount()) {
+            return "FULL";
+        }
+        return "";
     }
 
     public String getSessionId() { return sessionId; }
@@ -50,22 +69,6 @@ public class Session {
 
     public boolean isSessionFull() {
         return getStudentCount() == getMaxStudent();
-    }
-
-    private void updateStatus() {
-        if (getStudentCount() < getMinStudent())
-            setStatus(false);
-        else if (getStudentCount() >= getMinStudent() && getStudentCount() <= getMaxStudent())
-            setStatus(true);
-    }
-
-    private String printStatus() {
-        if (getStudentCount() < getMaxStudent()) {
-            return "OPEN";
-        } else if (getMaxStudent() == getStudentCount()) {
-            return "FULL";
-        }
-        return "";
     }
 
     public void addStudent(Student stud) throws Exception {
@@ -106,5 +109,23 @@ public class Session {
         return String.format("%n%-10s%-10s%-20s%-35s%-10s%n", getSessionId(), getCourseID(), "Open Seats: " +
                 (getMaxStudent() - getStudentCount()), (getTeacher() == null ? "N/A" :
                 getTeacher().getName() + " " + getTeacher().getId()), printStatus());
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Session)) return false;
+        Session session = (Session) o;
+        return getSessionId().equals(session.getSessionId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getSessionId());
+    }
+
+    @Override
+    public int compareTo(Session o) {
+        return getSessionId().compareTo(o.getSessionId());
     }
 }

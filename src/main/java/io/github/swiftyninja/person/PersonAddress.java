@@ -1,8 +1,9 @@
 package io.github.swiftyninja.person;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class PersonAddress implements Comparable<PersonAddress> {
+public class PersonAddress implements Comparable<PersonAddress>, Cloneable, Serializable {
     public String street;
     public String city;
     public String state;
@@ -48,5 +49,10 @@ public class PersonAddress implements Comparable<PersonAddress> {
         if ((i = this.state.compareTo(o.state)) != 0)
             return i;
         return Integer.compare(this.zip, o.zip);
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

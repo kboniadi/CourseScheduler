@@ -2,11 +2,23 @@ package io.github.swiftyninja.person;
 
 import java.util.ArrayList;
 
-public class Directory implements IDirectory {
+public final class Directory implements IDirectory {
+    private static Directory instance;
     private ArrayList<Person> directory;
 
-    public Directory() {
+    private Directory() {
         directory = new ArrayList<>();
+    }
+
+    public static Directory getInstance() {
+        // double locking mechanism
+        if (instance == null) {
+            synchronized (Directory.class) {
+                if (instance == null)
+                    instance = new Directory();
+            }
+        }
+        return instance;
     }
 
     public ArrayList<Person> getList() {

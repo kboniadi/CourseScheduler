@@ -1,10 +1,14 @@
 package io.github.swiftyninja.person;
 
 import io.github.swiftyninja.schedule.Session;
+
+import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Student extends Person {
+public class Student extends Person implements Cloneable, Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
     private LocalDate birth;
     private String gpa;
     private LocalDate startdate;
@@ -96,4 +100,21 @@ public class Student extends Person {
                 String.format("%n%-120s%-15s|%-15s|%-5s|%n",
                         super.toString(), birth.toString(), startdate.toString(), getGpa()) + "-".repeat(163) + "\n";
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    public Student deepCopy() throws IOException, ClassNotFoundException {
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        ObjectOutputStream out = new ObjectOutputStream(bos);
+        out.writeObject(this);
+
+        ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+        ObjectInputStream in = new ObjectInputStream(bis);
+
+        return (Student) in.readObject();
+    }
+
 }

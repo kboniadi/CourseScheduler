@@ -1,8 +1,9 @@
 package io.github.swiftyninja.person;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class PersonName implements Comparable<PersonName> {
+public class PersonName implements Comparable<PersonName>, Cloneable, Serializable {
     public String first;
     public String middle;
     public String last;
@@ -38,5 +39,10 @@ public class PersonName implements Comparable<PersonName> {
     @Override
     public int compareTo(PersonName o) {
         return this.toString().compareTo(o.toString());
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

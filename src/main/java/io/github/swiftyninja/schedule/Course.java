@@ -1,10 +1,10 @@
 package io.github.swiftyninja.schedule;
 
 import java.util.ArrayList;
-
+import java.util.Objects;
 import io.github.swiftyninja.person.Student;
 
-public class Course {
+public class Course implements Comparable<Course> {
     private String depart;
     private String code;
     private String description;
@@ -23,7 +23,6 @@ public class Course {
     public String getCode() { return code; }
     public String getDescription() { return description; }
     public String getCourseID() { return courseID; }
-
     public ArrayList<Session> getSessions() {
         return sessions;
     }
@@ -108,5 +107,23 @@ public class Course {
             out.append(s);
         }
         return out.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Course)) return false;
+        Course course = (Course) o;
+        return getCourseID().equals(course.getCourseID());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getCourseID());
+    }
+
+    @Override
+    public int compareTo(Course o) {
+        return getCourseID().compareTo(o.getCourseID());
     }
 }
