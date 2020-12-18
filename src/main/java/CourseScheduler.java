@@ -21,7 +21,7 @@ public class CourseScheduler {
         FileParser.parseFacultyFile(FACULTY_INPUT_FILE, Directory.getInstance(), new SequencialID());
         FileParser.parseCourseFile(COURSE_INFO_FILE, SESSION_INFO_FILE, CourseSchedule.getInstance(), new UUIDGenerator());
 
-        SchedulerAlgo test = new SchedulerAlgo(CONFIG_FILE);
+        IAutoScheduler test = new SchedulerAlgo(CONFIG_FILE);
         test.scheduleGenerator(CourseSchedule.getInstance(), Directory.getInstance());
 
         FileParser.dataOutputTry(SCHEDULED_COURSE_SESSIONS_FILE, CourseSchedule.getInstance().scheduledCourseSessions());
