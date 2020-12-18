@@ -1,5 +1,6 @@
 package io.github.swiftyninja.common;
 
+import io.github.swiftyninja.utilities.DataValidation;
 import io.github.swiftyninja.utilities.FileParser;
 import java.io.Serializable;
 import java.util.Objects;
@@ -18,7 +19,7 @@ public abstract class Person implements Comparable<Person>, Serializable {
      *
      * @param id default id
      */
-    protected Person(String id) {
+    protected Person(String id) throws Exception {
         this(id, new PersonName(), new PersonAddress(), "", "");
     }
 
@@ -30,7 +31,7 @@ public abstract class Person implements Comparable<Person>, Serializable {
      * @param email email
      * @param phone phone number
      */
-    protected Person(String id, PersonName name, PersonAddress address, String email, String phone) {
+    protected Person(String id, PersonName name, PersonAddress address, String email, String phone) throws Exception {
         this.id = id;
         setName(name);
         setAddress(address);
@@ -72,25 +73,37 @@ public abstract class Person implements Comparable<Person>, Serializable {
      *
      * @param phone set number
      */
-    public void setPhone(String phone) { this.phone = phone; }
+    public void setPhone(String phone) throws Exception {
+        DataValidation.ensureNonEmptyString("phone", phone);
+        this.phone = phone;
+    }
 
     /**
      *
      * @param name set name
      */
-    public void setName(PersonName name) { this.name = name; }
+    public void setName(PersonName name) throws Exception {
+        DataValidation.ensureObjectNotNull("name", name);
+        this.name = name;
+    }
 
     /**
      *
      * @param address set address (street, city, state, zip)
      */
-    public void setAddress(PersonAddress address) { this.address = address; }
+    public void setAddress(PersonAddress address) throws Exception {
+        DataValidation.ensureObjectNotNull("address", address);
+        this.address = address;
+    }
 
     /**
      *
      * @param email set email
      */
-    public void setEmail(String email) { this.email = email; }
+    public void setEmail(String email) throws Exception {
+        DataValidation.ensureNonEmptyString("email", email);
+        this.email = email;
+    }
 
     /**
      *
