@@ -1,5 +1,6 @@
 package io.github.swiftyninja.common;
 
+import io.github.swiftyninja.utilities.DataValidation;
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class Student extends Person implements Cloneable, Serializable {
      * Constructor
      * @param id unique to student obj
      */
-    public Student(String id) {
+    public Student(String id) throws Exception {
         this(id, LocalDate.now(), "", LocalDate.now());
     }
 
@@ -30,7 +31,7 @@ public class Student extends Person implements Cloneable, Serializable {
      * @param gpa 4.0 scale
      * @param startdate year/month/day
      */
-    public Student(String id, LocalDate birth, String gpa, LocalDate startdate) {
+    public Student(String id, LocalDate birth, String gpa, LocalDate startdate) throws Exception {
         super(id);
         setBirth(birth);
         setGpa(gpa);
@@ -49,7 +50,7 @@ public class Student extends Person implements Cloneable, Serializable {
      * @param gpa on 4.0 scale
      * @param startdate year/month/day
      */
-    public Student(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate birth, String gpa, LocalDate startdate) {
+    public Student(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate birth, String gpa, LocalDate startdate) throws Exception {
         super(id, name, address, email, phone);
         setBirth(birth);
         setGpa(gpa);
@@ -93,19 +94,28 @@ public class Student extends Person implements Cloneable, Serializable {
      *
      * @param birth setter LocalDate
      */
-    public void setBirth(LocalDate birth) { this.birth = birth; }
+    public void setBirth(LocalDate birth) throws Exception {
+        DataValidation.ensureObjectNotNull("birth", birth);
+        this.birth = birth;
+    }
 
     /**
      *
      * @param gpa setter String
      */
-    public void setGpa(String gpa) { this.gpa = gpa; }
+    public void setGpa(String gpa) throws Exception {
+        DataValidation.ensureNonEmptyString("gpa", gpa);
+        this.gpa = gpa;
+    }
 
     /**
      *
      * @param startdate setter LocalDate
      */
-    public void setStartDate(LocalDate startdate) { this.startdate = startdate; }
+    public void setStartDate(LocalDate startdate) throws Exception {
+        DataValidation.ensureObjectNotNull("startDate", startdate);
+        this.startdate = startdate;
+    }
 
     /**
      *
@@ -137,7 +147,7 @@ public class Student extends Person implements Cloneable, Serializable {
      *
      * @param sesh course session obj to add
      */
-    public void addSession(Session sesh) {
+    public void addSession(Session sesh) throws Exception {
         if (!classes.contains(sesh))
             classes.add(sesh);
     }
@@ -155,26 +165,23 @@ public class Student extends Person implements Cloneable, Serializable {
      * @param sessionId id of session to find
      * @return Session obj
      */
-    public Session findSession(String sessionId) {
+    public Session findSession(String sessionId) throws Exception {
         return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
     }
 
-    /**
-     * formatted class output
-     */
-    public void printMyClasses() {
-        if (classes.isEmpty()) {
-            System.out.println("\nYour schedule is empty");
-            return;
-        }
-        StringBuilder out = new StringBuilder();
-        out.append(String.format("%n%-10s%-10s%-20s%n", "TICKET", "Course", "INSTRUCTOR"));
-        out.append("-".repeat(40));
-        for (Session s : classes) {
-            out.append(String.format("%n%-10s%-10s%-20s%n", s.getSessionId(), s.getCourseID(), (s.getTeacher() == null ? "N/A" : s.getTeacher().getName())));
-        }
-        System.out.println(out.toString());
-    }
+//    public void printMyClasses() {
+//        if (classes.isEmpty()) {
+//            System.out.println("\nYour schedule is empty");
+//            return;
+//        }
+//        StringBuilder out = new StringBuilder();
+//        out.append(String.format("%n%-10s%-10s%-20s%n", "TICKET", "Course", "INSTRUCTOR"));
+//        out.append("-".repeat(40));
+//        for (Session s : classes) {
+//            out.append(String.format("%n%-10s%-10s%-20s%n", s.getSessionId(), s.getCourseID(), (s.getTeacher() == null ? "N/A" : s.getTeacher().getName())));
+//        }
+//        System.out.println(out.toString());
+//    }
 
     /**
      *

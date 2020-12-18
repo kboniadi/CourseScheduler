@@ -1,5 +1,6 @@
 package io.github.swiftyninja.common;
 
+import io.github.swiftyninja.utilities.DataValidation;
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class Faculty extends Person implements Cloneable, Serializable {
      * Constructor
      * @param id faculty unique id
      */
-    public Faculty(String id) {
+    public Faculty(String id) throws Exception {
         super(id);
         setHired(LocalDate.now());
         setTenured(false);
@@ -35,7 +36,7 @@ public class Faculty extends Person implements Cloneable, Serializable {
      * @param hired date hired
      * @param tenured are they tenured
      */
-    public Faculty(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate hired, boolean tenured) {
+    public Faculty(String id, PersonName name, PersonAddress address, String email, String phone, LocalDate hired, boolean tenured) throws Exception {
         super(id, name, address, email, phone);
         setHired(hired);
         setTenured(tenured);
@@ -64,13 +65,18 @@ public class Faculty extends Person implements Cloneable, Serializable {
      *
      * @param hired setter
      */
-    public void setHired(LocalDate hired) { this.hired = hired; }
+    public void setHired(LocalDate hired) throws Exception {
+        DataValidation.ensureObjectNotNull("hired", hired);
+        this.hired = hired;
+    }
 
     /**
      *
      * @param tenured setter
      */
-    public void setTenured(boolean tenured) { this.tenured = tenured; }
+    public void setTenured(boolean tenured) {
+        this.tenured = tenured;
+    }
 
     /**
      *
@@ -86,7 +92,7 @@ public class Faculty extends Person implements Cloneable, Serializable {
      *
      * @param sesh adds class session to faculty schedule
      */
-    public void addSession(Session sesh) {
+    public void addSession(Session sesh) throws Exception {
         if (!classes.contains(sesh))
             classes.add(sesh);
     }
@@ -95,7 +101,7 @@ public class Faculty extends Person implements Cloneable, Serializable {
      *
      * @param sessionID unique id
      */
-    public void removeSession(String sessionID) {
+    public void removeSession(String sessionID) throws Exception {
         classes.removeIf(n -> n.getSessionId().equals(sessionID));
     }
 
@@ -104,7 +110,7 @@ public class Faculty extends Person implements Cloneable, Serializable {
      * @param sessionId unique id
      * @return Session object to that id
      */
-    public Session findSession(String sessionId) {
+    public Session findSession(String sessionId) throws Exception {
         return classes.stream().filter(n -> n.getSessionId().equals(sessionId)).findAny().orElse(null);
     }
 

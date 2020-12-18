@@ -1,5 +1,6 @@
 package io.github.swiftyninja.common;
 
+import io.github.swiftyninja.utilities.DataValidation;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -19,7 +20,7 @@ public class Course implements Comparable<Course> {
      * @param code class code
      * @param description brief description
      */
-    public Course(String depart, String code, String description) {
+    public Course(String depart, String code, String description) throws Exception {
         setDepart(depart);
         setCode(code);
         setDescription(description);
@@ -53,7 +54,7 @@ public class Course implements Comparable<Course> {
 
     /**
      *
-     * @return list of sessins
+     * @return list of sessions
      */
     public ArrayList<Session> getSessions() {
         return sessions;
@@ -63,25 +64,37 @@ public class Course implements Comparable<Course> {
      *
      * @param depart setter String
      */
-    public void setDepart(String depart) { this.depart = depart; }
+    public void setDepart(String depart) throws Exception {
+        DataValidation.ensureNonEmptyString("depart", depart);
+        this.depart = depart;
+    }
 
     /**
      *
      * @param code setter String
      */
-    public void setCode(String code) { this.code = code; }
+    public void setCode(String code) throws Exception {
+        DataValidation.ensureNonEmptyString("code", code);
+        this.code = code;
+    }
 
     /**
      *
      * @param description setter String
      */
-    public void setDescription(String description) { this.description = description; }
+    public void setDescription(String description) throws Exception {
+        DataValidation.ensureNonEmptyString("description", description);
+        this.description = description;
+    }
 
     /**
      *
      * @param courseID setter String
      */
-    public void setCourseID(String courseID) { this.courseID = courseID; }
+    public void setCourseID(String courseID) throws Exception {
+        DataValidation.ensureNonEmptyString("courseID", courseID);
+        this.courseID = courseID;
+    }
 
 
     /**
@@ -125,7 +138,7 @@ public class Course implements Comparable<Course> {
      * @param sessionID unique id
      * @return Session obj
      */
-    public Session find(String sessionID) {
+    public Session find(String sessionID) throws Exception {
         for (Session s : sessions) {
             if (s.getSessionId().equals(sessionID)) {
                 return s;

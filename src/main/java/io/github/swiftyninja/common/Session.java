@@ -1,5 +1,6 @@
 package io.github.swiftyninja.common;
 
+import io.github.swiftyninja.utilities.DataValidation;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -24,7 +25,7 @@ public class Session implements Comparable<Session> {
      * @param minStudent min students
      * @param maxStudent max students
      */
-    public Session(String courseID, String sessionId, int minStudent, int maxStudent) {
+    public Session(String courseID, String sessionId, int minStudent, int maxStudent) throws Exception {
         setCourseID(courseID);
         setSessionId(sessionId);
         setMinStudent(minStudent);
@@ -102,43 +103,60 @@ public class Session implements Comparable<Session> {
      *
      * @param sessionId unique id
      */
-    public void setSessionId(String sessionId) { this.sessionId = sessionId; }
+    public void setSessionId(String sessionId) throws Exception {
+        DataValidation.ensureNonEmptyString("sessionId", sessionId);
+        this.sessionId = sessionId;
+    }
 
     /**
      *
      * @param minStudent min amount
      */
-    public void setMinStudent(int minStudent) { this.minStudent = minStudent; }
+    public void setMinStudent(int minStudent) {
+        this.minStudent = minStudent;
+    }
 
     /**
      *
      * @param maxStudent max amount
      */
-    public void setMaxStudent(int maxStudent) { this.maxStudent = maxStudent; }
+    public void setMaxStudent(int maxStudent) {
+        this.maxStudent = maxStudent;
+    }
 
     /**
      *
      * @param teacher faculty obj
      */
-    public void setTeacher(Faculty teacher) { this.teacher = teacher; }
+    public void setTeacher(Faculty teacher) throws Exception {
+        DataValidation.ensureObjectNotNull("teacher", teacher);
+        this.teacher = teacher;
+    }
 
     /**
      *
      * @param courseID depart + code
      */
-    public void setCourseID(String courseID) { this.courseID = courseID; }
+    public void setCourseID(String courseID) throws Exception {
+        DataValidation.ensureNonEmptyString("courseID", courseID);
+        this.courseID = courseID;
+    }
 
     /**
      *
      * @param status isCancelled
      */
-    public void setStatus(boolean status) { this.status = status; }
+    public void setStatus(boolean status) {
+        this.status = status;
+    }
 
     /**
      *
      * @param studentCount number of students in Session
      */
-    public void setStudentCount(int studentCount) { this.studentCount = studentCount; }
+    public void setStudentCount(int studentCount) {
+        this.studentCount = studentCount;
+    }
 
     /**
      *
@@ -198,9 +216,9 @@ public class Session implements Comparable<Session> {
     /**
      *
      * @param personID unique id
-     * @return
+     * @return boolean if student in session
      */
-    public boolean isStudentInSession(String personID) {
+    public boolean isStudentInSession(String personID) throws Exception {
         for (Student s : students) {
             if (s.getId().equals(personID))
                 return true;
