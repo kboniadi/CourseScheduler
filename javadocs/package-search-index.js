@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"io.github.swiftyninja.person"},{"l":"io.github.swiftyninja.schedule"},{"l":"io.github.swiftyninja.utilities"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"io.github.swiftyninja.common"},{"l":"io.github.swiftyninja.containers"},{"l":"io.github.swiftyninja.utilities"}]

@@ -3,6 +3,14 @@ import io.github.swiftyninja.utilities.FileParser;
 import io.github.swiftyninja.utilities.SequencialID;
 import io.github.swiftyninja.utilities.UUIDGenerator;
 
+/**
+ * <h1>CourseScheduler</h1>
+ * This program will take in text files worth of student, faculty, session, and course information. Then through
+ * the use of a scheduling algorithm, students and faculty members will be assigned to sessions with data outputted
+ * to text files. A Console debug output will give a brief summery of whats outputted to the text files
+ * @author kord
+ * @since 12/17/20
+ */
 public class CourseScheduler {
     public static void main(String[] args) throws Exception {
         final String CONFIG_FILE        = "src/main/resources/inputFiles/Config.cfg";
